@@ -7,16 +7,159 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<!--Local bootstrap -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!--Local bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/emily.css">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');</style>
 
   </head>
-<body>
-  <div class="container" >
-    <div class="jumbotron" >
-        <p>Yay</p>
+<body data-spy="scroll" data-target="#navbar-example">
+<!--TOP SECTION-->
+  <div class="section-home container-fluid">
+    <!--Logo/hamburger-->
+    <div class="row justify-content-between">
+      <div class="col-1">
+        <img src="/images/EHN_logo@2x.png" style="width: 75px">
+      </div>
+      <div class="col-1">
+        <i class="material-icons text-right">menu</i>
+      </div>
+    </div>
+    <!--ROW: Nav + h1-->
+    <div class="row">
+      <!--Vertical Nav-->
+      <div class="col-1">
+        <ul class="nav justify-content-end hidden-xs-down">
+          <li class="nav-item">
+            <a class="nav-link active" href="#section-work">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-contact">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Hi I'm Emily-->
+      <div class="col-sm-7 col-12 layer-higher">
+        <h1>Hi, I’m Emily Hom-Nici. I’m a digital product designer currently living in Chicago and working at VSA Partners</h1>
+      </div>
+    </div>
+
+    <!--ROW: portrait, pulled up-->
+    <div class="row overlap-up">
+      <div class="col-sm-5 offset-sm-6 col-8 offset-4">
+          <img src="/images/portrait.png" style="width:100%">
+      </div>
     </div>
   </div>
+
+<!--WORK SECTION-->
+  <div id="section-work" class="container-fluid">
+    <div class="row my-5 ">
+      <div class="col-12 col-sm-7 offset-sm-2 test">
+        <!--Engage! project-->
+        <div class="row mt-3">
+          <div class="col">
+              <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-11">
+            <h3><b>Engage!</b></h3>
+            <p>AWS App | IBM | 2017</p>
+          </div>
+          <div class="col-1">
+            <i class="material-icons">lock</i>
+          </div>
+        </div>
+        <!--Crouton project-->
+        <a href="#"><div class="row mt-3">
+          <div class="col">
+              <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3><b>Crouton</b></h3>
+            <p>App concept | Personal project | 2017</p>
+          </div>
+        </div></a>
+        <!--Northstar project-->
+        <div class="row mt-3">
+          <div class="col">
+              <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-11">
+            <h3><b>Northstar</b></h3>
+            <p>Design template system | IBM | 2015</p>
+          </div>
+          <div class="col-1">
+            <i class="material-icons">lock</i>
+          </div>
+        </div>
+        <!--FF project-->
+        <div class="row mt-3">
+          <div class="col">
+              <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-11">
+            <h3><b>Futures Fundamentals</b></h3>
+            <p>Website facelift | CME | 2016</p>
+          </div>
+          <div class="col-1">
+            <i class="material-icons text-right">lock</i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!--ABOUT SECTION-->
+  <div id="section-about" class="container-fluid">
+    <div class="row my-5 ">
+      <div class="col-sm-7 offset-sm-1 col-12">
+        <h2>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.<br />
+        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        </h2>
+      </div>
+      <div class="col-sm-3 col-12 align-self-end">
+        <h2><b>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. </b></h2>
+      </div>
+    </div>
+  </div>
+
+  <!--CONTACT SECTION-->
+    <div id="section-contact" class="container-fluid">
+      <div class="row my-5 ">
+        <div class="col-sm-11 offset-sm-1 col-12">
+          <h2><b>emilyhomnici | @emilyhomnici | /emilyhomnici</b></h2>
+        </div>
+      </div>
+    </div>
+
+<!--FOOTER SECTION-->
+  <div class="container-fluid">
+    <div class="row my-5 ">
+      <div class="col-sm-11 offset-sm-1 col">
+        <hr />
+      </div>
+      <div class="col-sm-11 offset-sm-1 col">
+        <p>design and coded by me using bootstrap</p>
+      </div>
+    </div>
+  </div>
+
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
@@ -24,8 +167,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!--local bootstrap-->
-    <link rel="javascript"src="/js/jquery.js">
-    <link rel="javascript" src="/js/jquery.min.js">
+    <link rel="javascript"src="/js/bootstrap.js">
+    <link rel="javascript" src="/js/bootstrap.min.js">
 
 
 
