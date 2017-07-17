@@ -64,6 +64,28 @@ b{
 }
 .secondary-font{font-family: 'Lato', sans-serif; font-weight: 300;}
 
+a.link{
+  text-decoration: none;
+  border-bottom: 1px solid #D0F346;
+  box-shadow: 0 -8px 0 #D0F346 inset;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  transition:.5s;
+  }
+
+  a.link:hover{
+    text-decoration: none;
+    border-bottom: 1px solid #D0F346;
+    box-shadow: 0 -16px 0 #D0F346 inset;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    transition:.5s;
+  }
+
 /*--mediaqueries--*/
 /*Extra small devices (portrait phones, less than 576px)*/
 /*No media query since this is the default in Bootstrap*/
@@ -98,3 +120,8 @@ h3, h4{line-height: 1.5rem;}
 
 
 /*--misc--*/
+.line{
+  height: 8px;
+  width: 15%;
+  background-color:#D0F346;
+}
