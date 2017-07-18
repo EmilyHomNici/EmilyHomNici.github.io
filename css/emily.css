@@ -12,14 +12,6 @@ ul.nav{
   height:20%;
 }
 
-
-/*--layering--*/
-.overlap-up{
-  margin-top: -10%;
-}
-.layer-higher{
-  z-index: 1;
-}
 /*sections*/
 body{position:relative;}
 .section-home, .section-work, .section-about, .section-contact
@@ -86,12 +78,29 @@ a.link{
     transition:.5s;
   }
 
+  /*--layering--*/
+  .overlap-up{
+    margin-top: -70%;
+  }
+  .layer-higher{
+    z-index: 1;
+    height: 300px;
+  }
+  .portrait{
+    width: 100%;
+    height: auto;
+    max-width: 540px;
+    float: right;
+  }
 /*--mediaqueries--*/
 /*Extra small devices (portrait phones, less than 576px)*/
 /*No media query since this is the default in Bootstrap*/
 h1{font-weight: 500; line-height: 2rem;}
 h2{line-height: 1.75rem;}
 h3, h4{line-height: 1.5rem;}
+
+/*vertical space*/
+.spacing-vertical{margin-bottom: 22%;}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -100,13 +109,21 @@ h3, h4{line-height: 1.5rem;}
     line-height: 2.5rem;
     font-weight: 500;
   }
+  .overlap-up{
+    margin-top: -35%;
   }
+  }
+  /*vertical space (mediaquery 576)*/
+  .spacing-vertical{margin-bottom: 10%;}
 
 @media (min-width: 992px) {
   h1{
     font-size: 3rem;
     line-height: 3.75rem;
     font-weight: 500;
+  }
+  .overlap-up{
+    margin-top: -25%;
   }
   }
 
@@ -115,6 +132,12 @@ h3, h4{line-height: 1.5rem;}
   h1{font-size: 3.5rem; font-weight: 500;}
   h2{font-size: 1.25rem; line-height: 2rem;}
   h3{font-size: 1.25rem;}
+  /*vertical space (mediaquery 1200)*/
+  .spacing-vertical{margin-bottom: 8%;}
+  .overlap-up{
+    margin-top: -18%;
+  }
+
 }
 
 
