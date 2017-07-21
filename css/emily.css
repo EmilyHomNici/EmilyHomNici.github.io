@@ -2,6 +2,10 @@
 body{position:relative;}
 .section-home, .section-work, .section-about, .section-contact
 
+/*--Nav--*/
+
+/*--end nav--*/
+
 /*--hover on work--*/
 .hoverable{display: block;}
 .parent div{
