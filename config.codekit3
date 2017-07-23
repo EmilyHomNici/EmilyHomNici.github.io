@@ -179,6 +179,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/jquery.bootstrap-autohidingnavbar.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.bootstrap-autohidingnavbar-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/npm.js": {
 		"ft": 64,
 		"mi": 1,
