@@ -194,25 +194,26 @@
       sr.reveal('.scroll-5');
     </script>
 
+    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
     <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
     <script>
-    // Hide navbar
-      function hideDetect(){
-      $(".navbar-fixed-top").autoHidingNavbar();
-      if ($(window).width() > 576){
-    // Keep menu on big screens
-      $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
-      $(".navbar-fixed-top").autoHidingNavbar('show');
-      }
-      else {
-    // Auto-hide menu on tiny screens
-      $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
-      }
-      }
-    // Launch startup detection
-      hideDetect();
-    // Re-launch dection in window resized
-      window.onresize = hideDetect;
+      // Hide navbar
+        function hideDetect(){
+        $(".navbar-fixed-top").autoHidingNavbar();
+        if ($(window).width() > 576){
+      // Keep menu on big screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
+        $(".navbar-fixed-top").autoHidingNavbar('show');
+        }
+        else {
+      // Auto-hide menu on tiny screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
+        }
+        }
+      // Launch startup detection
+        hideDetect();
+      // Re-launch dection in window resized
+        window.onresize = hideDetect;
     </script>
 
 

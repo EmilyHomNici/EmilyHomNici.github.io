@@ -31,7 +31,7 @@ body{padding-top: 100px;}
       .navbar-toggle:focus .icon-bar {background-color: black !important;}
     .navbar-toggle:hover {background-color: transparent !important;}
       .navbar-toggle:hover .icon-bar {background-color: black !important;}
-    .navbar{min-height: 100px;}
+    .navbar{min-height: 100px; background-color: rgba(255,255,255,.95);}
     /* logo*/
     .navbar-brand img{width: 50px;}
     .navbar-brand{ height: auto; padding-left: 0;}
@@ -49,6 +49,7 @@ body{padding-top: 100px;}
   .navbar-nav>li>a {padding-top: 10px; padding-bottom: 10px;}
   .navbar-brand img{width: 65px;}
   .navbar-brand{padding-left: 15px;}
+  .navbar{background-color: transparent;}
 }
 @media (min-width: 1200px) {.navbar-brand img{width: 80px;}}
 /*--end nav--*/
