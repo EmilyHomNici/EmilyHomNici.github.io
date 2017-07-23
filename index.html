@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-grid.css">
     <link rel="stylesheet" href="/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="/css/bootstrap-theme.css">
-    <!--<link rel="stylesheet" href="/css/bootstrap.css">-->
     <link rel="stylesheet" href="/css/emily.css">
 
     <!--fonts-->
@@ -23,7 +22,7 @@
 <body>
 <!--navbar-->
 
-<nav class="navbar navbar-defaul">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -34,7 +33,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.html">
-        <img alt="EHN Logo" src="/images/EHN_logo@2x.png" style="width: 40%">
+        <img alt="EHN Logo" src="/images/EHN_logo@2x.png" style="width: 70px">
       </a>
       </a>
     </div>
@@ -51,17 +50,17 @@
 <!--nav bar end-->
 
 <!--TOP SECTION-->
-  <div class="section-home container-fluid mt-4">
+  <div class="section-home container-fluid mt-4 ">
     <!--ROW: Nav + h1-->
     <div class="row mt-4">
       <!--Hi I'm Emily-->
-      <div class="col-12 offset-sm-1 col-sm-7 offset-lg-1 col-lg-8 layer-higher">
+      <div class="col-12 offset-sm-1 col-sm-7 offset-lg-1 col-lg-8 layer-higher scroll-1">
         <h1>Hi, I’m Emily Hom-Nici. I’m a digital product designer currently living in Chicago and working at VSA Partners</h1>
       </div>
     </div>
 
     <!--ROW: portrait, pulled up-->
-    <div class="row overlap-up spacing-vertical">
+    <div class="row overlap-up spacing-vertical scroll-2">
       <div class="col-sm-5 offset-sm-6 col-8 offset-4">
           <img src="/images/portrait.png" class="portrait">
       </div>
@@ -69,7 +68,7 @@
   </div>
 
 <!--WORK SECTION-->
-  <div id="section-work" class="container-fluid spacing-vertical">
+  <div id="section-work" class="container-fluid spacing-vertical scroll-3">
     <div class="row my-5 ">
       <div class="col-12 col-sm-7 offset-sm-2 parent">
         <!--Engage! project-->
@@ -143,7 +142,7 @@
   </div>
 
 <!--ABOUT SECTION-->
-  <div id="section-about" class="container-fluid spacing-vertical">
+  <div id="section-about" class="container-fluid spacing-vertical scroll-4">
     <div class="row my-5 ">
       <div class="col-sm-7 offset-sm-1 col-12 mb-3">
         <h2 class="secondary-font">Duis mollis, est non commodo luctus, nisi erat <a class="link" href="#">porttitor ligula, eget lacinia</a> odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.<br />
@@ -158,7 +157,7 @@
   </div>
 
   <!--CONTACT SECTION-->
-    <div id="section-contact" class="container-fluid spacing-vertical">
+    <div id="section-contact" class="container-fluid spacing-vertical scroll-5">
       <div class="row my-5 ">
         <div class="col-sm-11 offset-sm-1 col-12">
           <h2><b>emilyhomnici | @emilyhomnici | /emilyhomnici</b></h2>
@@ -183,6 +182,18 @@
   <!--jquerycdn-->
     <script src="jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
+    <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+    window.sr = ScrollReveal({ scale: 0, distance: '10px', delay: 200});
+      sr.reveal('.scroll-1', {delay: 0});
+      sr.reveal('.scroll-2', {delay: 400});
+      sr.reveal('.scroll-3');
+      sr.reveal('.scroll-4');
+      sr.reveal('.scroll-5');
+    </script>
+
 
 
     <!--[if lt IE 9]>
