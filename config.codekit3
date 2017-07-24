@@ -135,15 +135,14 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/portrait.png": {
-		"ft": 32768,
-		"iS": 314172,
+	"\/images\/portrait.jpg": {
+		"ft": 16384,
+		"iS": 1044620,
 		"oA": 0,
-		"oAP": "\/images\/portrait.png",
+		"oAP": "\/images\/portrait.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -175,6 +174,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.bootstrap-autohidingnavbar-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.bootstrap-autohidingnavbar-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
