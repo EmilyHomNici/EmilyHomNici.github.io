@@ -186,3 +186,23 @@ h3, h4{font-size: 1rem; line-height: 1.5rem;}
   width: 15%;
   background-color:#D0F346;
 }
+
+a, a:hover{text-decoration: none;}
+
+.spacer-56{
+  margin-top: 56px;
+}
+
+.timeline{
+  border-left: thin solid black;
+}
+
+.highlight{
+text-decoration: none;
+border-bottom: 1px solid #D0F346;
+box-shadow: 0 -8px 0 #D0F346 inset;
+}
+
+.blue{
+  background-color: blue;
+}

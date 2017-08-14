@@ -113,6 +113,12 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/engage.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/engage.html",
+		"oF": 0
+		},
 	"\/images\/EHN_logo@2x.png": {
 		"ft": 32768,
 		"iS": 3019,
@@ -122,6 +128,136 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/ig_build.jpg": {
+		"ft": 16384,
+		"iS": 185892,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_build.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_build1.jpg": {
+		"ft": 16384,
+		"iS": 245486,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_build1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_hero_1.jpg": {
+		"ft": 16384,
+		"iS": 165672,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_hero_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/engage\/ig_home.jpg": {
+		"ft": 16384,
+		"iS": 187880,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_Ideate1.jpg": {
+		"ft": 16384,
+		"iS": 112859,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_Ideate1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_ideate2.jpg": {
+		"ft": 16384,
+		"iS": 113089,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_ideate2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_prioritize.jpg": {
+		"ft": 16384,
+		"iS": 282400,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_prioritize.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_prioritize1.jpg": {
+		"ft": 16384,
+		"iS": 104987,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_prioritize1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_prioritize2.jpg": {
+		"ft": 16384,
+		"iS": 50387,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_prioritize2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_process.jpg": {
+		"ft": 16384,
+		"iS": 65465,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_process.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_role.jpg": {
+		"ft": 16384,
+		"iS": 78255,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_role.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_understand.jpg": {
+		"ft": 16384,
+		"iS": 137199,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_understand.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/ig_uxmap.jpg": {
+		"ft": 16384,
+		"iS": 89671,
+		"oA": 0,
+		"oAP": "\/images\/engage\/ig_uxmap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/engage_homeimage.png": {
@@ -137,7 +273,7 @@
 		},
 	"\/images\/portrait.jpg": {
 		"ft": 16384,
-		"iS": 1044620,
+		"iS": 1045056,
 		"oA": 0,
 		"oAP": "\/images\/portrait.jpg",
 		"oF": 0,
