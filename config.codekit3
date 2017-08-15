@@ -119,6 +119,17 @@
 		"oAP": "\/engage.html",
 		"oF": 0
 		},
+	"\/images\/dot.png": {
+		"ft": 32768,
+		"iS": 1440,
+		"oA": 0,
+		"oAP": "\/images\/dot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/EHN_logo@2x.png": {
 		"ft": 32768,
 		"iS": 3019,
@@ -358,6 +369,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/textstyles.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/textstyles.html",
+		"oF": 0
 		}
 	},
 "hooks": [

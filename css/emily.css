@@ -136,7 +136,8 @@ a.link{
 h1{font-weight: 500; line-height: 2rem;}
 h2{font-size: 1rem; line-height: 1.75rem;}
 h3, h4{font-size: 1rem; line-height: 1.5rem;}
-
+.text-align{text-align: left;}
+.dot{display: none;}
 /*vertical space*/
 .spacing-vertical{margin-bottom: 22%;}
 
@@ -147,6 +148,7 @@ h3, h4{font-size: 1rem; line-height: 1.5rem;}
     line-height: 2.5rem;
     font-weight: 500;
   }
+
   .overlap-up{
     margin-top: -35%;
   }
@@ -154,16 +156,23 @@ h3, h4{font-size: 1rem; line-height: 1.5rem;}
   /*vertical space (mediaquery 576)*/
   .spacing-vertical{margin-bottom: 10%;}
 
+@media (min-width: 768px) {
+.text-align{text-align: right;}
+}
+
 @media (min-width: 992px) {
   h1{
     font-size: 3rem;
     line-height: 3.75rem;
     font-weight: 500;
   }
+
   .overlap-up{
     margin-top: -25%;
   }
-  }
+  .timeline{border-left: thin solid #EEE;}
+  .dot{display: block;}
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
@@ -189,13 +198,6 @@ h3, h4{font-size: 1rem; line-height: 1.5rem;}
 
 a, a:hover{text-decoration: none;}
 
-.spacer-56{
-  margin-top: 56px;
-}
-
-.timeline{
-  border-left: thin solid black;
-}
 
 .highlight{
 text-decoration: none;
@@ -203,6 +205,17 @@ border-bottom: 1px solid #D0F346;
 box-shadow: 0 -8px 0 #D0F346 inset;
 }
 
-.blue{
-  background-color: blue;
+
+/*--spacing--*/
+.spacer-10{margin-top: 10%;}
+.spacer-15{margin-top: 15%;}
+
+.mb-0{
+  margin-bottom: 0;
+}
+.mt-0{
+  margin-top: 0;
+}
+.mt-4{
+  margin-top: 4px;
 }
