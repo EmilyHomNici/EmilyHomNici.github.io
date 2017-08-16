@@ -119,6 +119,40 @@
 		"oAP": "\/engage.html",
 		"oF": 0
 		},
+	"\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/glyphicons-halflings-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/glyphicons-halflings-regular.woff2",
+		"oF": 0
+		},
 	"\/images\/dot.png": {
 		"ft": 32768,
 		"iS": 1440,
@@ -276,6 +310,28 @@
 		"iS": 298955,
 		"oA": 0,
 		"oAP": "\/images\/engage_homeimage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/icon-minus.png": {
+		"ft": 32768,
+		"iS": 3872,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon-minus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/icons\/icon-plus.png": {
+		"ft": 32768,
+		"iS": 3925,
+		"oA": 0,
+		"oAP": "\/images\/icons\/icon-plus.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
