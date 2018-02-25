@@ -7,7 +7,7 @@
 		"uuidString": "9D9C6F10-3C93-4BDC-8326-B8024D73F969"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "26268",
 "files": {
 	"\/css\/bootstrap-grid.css": {
 		"aP": 1,
@@ -40,6 +40,7 @@
 		"oS": 3
 		},
 	"\/css\/bootstrap-theme.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/bootstrap-theme.css.map",
@@ -56,6 +57,7 @@
 		"oS": 3
 		},
 	"\/css\/bootstrap-theme.min.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/bootstrap-theme.min.css.map",
@@ -72,6 +74,7 @@
 		"oS": 3
 		},
 	"\/css\/bootstrap.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/bootstrap.css.map",
@@ -88,6 +91,7 @@
 		"oS": 3
 		},
 	"\/css\/bootstrap.min.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/bootstrap.min.css.map",
@@ -114,12 +118,14 @@
 		"oS": 3
 		},
 	"\/engage.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/engage.html",
 		"oF": 0
 		},
 	"\/fonts\/glyphicons-halflings-regular.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/glyphicons-halflings-regular.eot",
@@ -136,18 +142,21 @@
 		"prP": 0
 		},
 	"\/fonts\/glyphicons-halflings-regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/glyphicons-halflings-regular.ttf",
 		"oF": 0
 		},
 	"\/fonts\/glyphicons-halflings-regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/glyphicons-halflings-regular.woff",
 		"oF": 0
 		},
 	"\/fonts\/glyphicons-halflings-regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/glyphicons-halflings-regular.woff2",
@@ -175,131 +184,435 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/engage\/ig_build.jpg": {
-		"ft": 16384,
-		"iS": 185892,
+	"\/images\/engage\/Engage_Hero.png": {
+		"ft": 32768,
+		"iS": 305659,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_build.jpg",
+		"oAP": "\/images\/engage\/Engage_Hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Hero@2x.png": {
+		"ft": 32768,
+		"iS": 903624,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Hero@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Home.png": {
+		"ft": 32768,
+		"iS": 484084,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Home@2x.png": {
+		"ft": 32768,
+		"iS": 1548255,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Home@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Ideate@2x.png": {
+		"ft": 32768,
+		"iS": 1708107,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Ideate@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Ideate_Gallery.jpg": {
+		"ft": 16384,
+		"iS": 160289,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Ideate_Gallery.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_build1.jpg": {
+	"\/images\/engage\/Engage_Ideate_Gallery@2x.jpg": {
 		"ft": 16384,
-		"iS": 245486,
+		"iS": 422255,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_build1.jpg",
+		"oAP": "\/images\/engage\/Engage_Ideate_Gallery@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_hero_1.jpg": {
+	"\/images\/engage\/Engage_Ideate_Spark.jpg": {
 		"ft": 16384,
-		"iS": 165672,
+		"iS": 155074,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_hero_1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/engage\/ig_home.jpg": {
-		"ft": 16384,
-		"iS": 187880,
-		"oA": 0,
-		"oAP": "\/images\/engage\/ig_home.jpg",
+		"oAP": "\/images\/engage\/Engage_Ideate_Spark.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_Ideate1.jpg": {
+	"\/images\/engage\/Engage_Ideate_Spark@2x.jpg": {
 		"ft": 16384,
-		"iS": 112859,
+		"iS": 399798,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_Ideate1.jpg",
+		"oAP": "\/images\/engage\/Engage_Ideate_Spark@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_ideate2.jpg": {
+	"\/images\/engage\/Engage_Intro_Accelerate.jpg": {
 		"ft": 16384,
-		"iS": 113089,
+		"iS": 29534,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_ideate2.jpg",
+		"oAP": "\/images\/engage\/Engage_Intro_Accelerate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_prioritize.jpg": {
+	"\/images\/engage\/Engage_Intro_Accelerate@2x.jpg": {
 		"ft": 16384,
-		"iS": 282400,
+		"iS": 72494,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_prioritize.jpg",
+		"oAP": "\/images\/engage\/Engage_Intro_Accelerate@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_prioritize1.jpg": {
+	"\/images\/engage\/Engage_Intro_Collaborate.jpg": {
 		"ft": 16384,
-		"iS": 104987,
+		"iS": 31874,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_prioritize1.jpg",
+		"oAP": "\/images\/engage\/Engage_Intro_Collaborate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_prioritize2.jpg": {
+	"\/images\/engage\/Engage_Intro_Collaborate@2x.jpg": {
 		"ft": 16384,
-		"iS": 50387,
+		"iS": 78736,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_prioritize2.jpg",
+		"oAP": "\/images\/engage\/Engage_Intro_Collaborate@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_process.jpg": {
+	"\/images\/engage\/Engage_Intro_Innovate.jpg": {
 		"ft": 16384,
-		"iS": 65465,
+		"iS": 27568,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_process.jpg",
+		"oAP": "\/images\/engage\/Engage_Intro_Innovate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_role.jpg": {
+	"\/images\/engage\/Engage_Intro_Innovate@2x.jpg": {
 		"ft": 16384,
-		"iS": 78255,
+		"iS": 68276,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_role.jpg",
+		"oAP": "\/images\/engage\/Engage_Intro_Innovate@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_understand.jpg": {
+	"\/images\/engage\/Engage_Map.jpg": {
 		"ft": 16384,
-		"iS": 137199,
+		"iS": 105181,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_understand.jpg",
+		"oAP": "\/images\/engage\/Engage_Map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/engage\/ig_uxmap.jpg": {
+	"\/images\/engage\/Engage_Map@2x.jpg": {
 		"ft": 16384,
-		"iS": 89671,
+		"iS": 273185,
 		"oA": 0,
-		"oAP": "\/images\/engage\/ig_uxmap.jpg",
+		"oAP": "\/images\/engage\/Engage_Map@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_OppBrief.png": {
+		"ft": 32768,
+		"iS": 298028,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_OppBrief.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_OppBrief@2x.png": {
+		"ft": 32768,
+		"iS": 954008,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_OppBrief@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Prioritize.png": {
+		"ft": 32768,
+		"iS": 651418,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Prioritize.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Prioritize@2x.png": {
+		"ft": 32768,
+		"iS": 1871984,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Prioritize@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Prioritize_Idea.jpg": {
+		"ft": 16384,
+		"iS": 97583,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Prioritize_Idea.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Prioritize_Idea@2x.jpg": {
+		"ft": 16384,
+		"iS": 253949,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Prioritize_Idea@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Prioritize_Plot.jpg": {
+		"ft": 16384,
+		"iS": 43042,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Prioritize_Plot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Prioritize_Plot@2x.jpg": {
+		"ft": 16384,
+		"iS": 109940,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Prioritize_Plot@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_PublishingIdea.mov": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/engage\/Engage_PublishingIdea.mov",
+		"oF": 0
+		},
+	"\/images\/engage\/Engage_Sketches.png": {
+		"ft": 32768,
+		"iS": 384509,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Sketches.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Sketches@2x.png": {
+		"ft": 32768,
+		"iS": 1161769,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Sketches@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Stages.png": {
+		"ft": 32768,
+		"iS": 320878,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Stages.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Stages@2x.png": {
+		"ft": 32768,
+		"iS": 919969,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Stages@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_System.png": {
+		"ft": 32768,
+		"iS": 320301,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_System.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_System@2x.png": {
+		"ft": 32768,
+		"iS": 879467,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_System@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Transition.png": {
+		"ft": 32768,
+		"iS": 64792,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Transition.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Transition@2x.png": {
+		"ft": 32768,
+		"iS": 206714,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Transition@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_News.jpg": {
+		"ft": 16384,
+		"iS": 52429,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_News.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_News@2x.jpg": {
+		"ft": 16384,
+		"iS": 132541,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_News@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_Revenue.jpg": {
+		"ft": 16384,
+		"iS": 29014,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_Revenue.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_Revenue@2x.jpg": {
+		"ft": 16384,
+		"iS": 70997,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_Revenue@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_Wallet1.jpg": {
+		"ft": 16384,
+		"iS": 17004,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_Wallet1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_Wallet1@2x.jpg": {
+		"ft": 16384,
+		"iS": 41800,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_Wallet1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_Wallet2.jpg": {
+		"ft": 16384,
+		"iS": 15162,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_Wallet2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/engage\/Engage_Understand_Wallet2@2x.jpg": {
+		"ft": 16384,
+		"iS": 37555,
+		"oA": 0,
+		"oAP": "\/images\/engage\/Engage_Understand_Wallet2@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -349,6 +662,7 @@
 		"q": 100
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
@@ -356,6 +670,7 @@
 		},
 	"\/jquery.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/jquery-min.js",
@@ -365,6 +680,7 @@
 		},
 	"\/js\/bootstrap.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap-min.js",
@@ -374,6 +690,7 @@
 		},
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/bootstrap.min-min.js",
@@ -383,6 +700,7 @@
 		},
 	"\/js\/jquery.bootstrap-autohidingnavbar-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.bootstrap-autohidingnavbar-min-min.js",
@@ -392,6 +710,7 @@
 		},
 	"\/js\/jquery.bootstrap-autohidingnavbar.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.bootstrap-autohidingnavbar-min.js",
@@ -401,6 +720,7 @@
 		},
 	"\/js\/npm.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/npm-min.js",
@@ -408,8 +728,19 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/pw-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/pw-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/pw.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/pw-min.js",
@@ -417,11 +748,31 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/retina.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/retina.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/rollup.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/rollup.config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -436,6 +787,7 @@
 		"uCM": 0
 		},
 	"\/textstyles.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/textstyles.html",
@@ -458,6 +810,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -854,6 +1207,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -861,6 +1218,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -958,6 +1319,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -974,9 +1339,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1001,6 +1374,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -1034,9 +1411,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1066,6 +1443,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1075,14 +1456,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1105,6 +1478,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -1650,6 +2027,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1718,6 +2099,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1757,6 +2142,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -2170,7 +2559,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -2203,6 +2593,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2244,7 +2635,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2276,13 +2668,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2291,7 +2683,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2311,7 +2704,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2339,7 +2733,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2390,6 +2785,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {

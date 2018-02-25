@@ -25,7 +25,7 @@ body{padding-top: 100px;}
     .navbar-nav>li {float: none;}
     .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px;}
     .navbar-collapse {background-color: white;}
-    .navbar-collapse.in {background-color: white;display: block !important;}
+    .navbar-collapse.in {background-color: white; display: block !important;}
     .icon-bar {background-color: #4a4a4a !important;}
     .navbar-toggle:focus{background-color: transparent !important;}
       .navbar-toggle:focus .icon-bar {background-color: black !important;}
@@ -83,17 +83,39 @@ body{padding-top: 100px;}
 }
 /*--end hover on work--*/
 
-.material-icons{float: right;}
+.float-right{float: right;}
 
-/*--font-stuff--*/
-h2{
-  color:#4A4A4A;
-}
-b{
-  font-weight: 500;
-}
-.secondary-font{font-family: 'Lato', sans-serif; font-weight: 300;}
 
+  /*--layering--*/
+  .overlap-up{
+    margin-top: -70%;
+  }
+  .layer-higher{
+    z-index: 1;
+    height: 300px;
+  }
+  .portrait{
+    width: 100%;
+    height: auto;
+    max-width: 540px;
+    float: right;
+  }
+/*--mediaqueries--*/
+/*No media query since this is the default in Bootstrap*/
+/*SMALL MEDIA QUERY*/
+/*font stuff*/
+h1{line-height: 2.25rem;} /* 32/36px */
+h2{font-size: 3rem; line-height: 3.75rem;} /* 48/60px (changes)*/
+h3{font-size: 2rem; line-height: 3rem;} /* 32/48px */
+h4{font-size: 1.5rem; line-height: 2.25rem;} /* 24/36px */
+p{font-size: 1.125rem; line-height: 2rem;} /* 18/32px */
+h5{font-size: 1rem; line-height: 1.75rem;} /* 16/28px */
+h6{font-size: 0.875rem; line-height: 1.5rem; font-weight: 400;} /* 14/24px */
+.text-align{text-align: left;}
+.secondary-font{font-family: 'Heebo', sans-serif; color: #757575}
+.charspacing{letter-spacing: 0.5px;}
+.nolineheight{line-height: 50%;}
+b{font-weight: 700;}
 a.link{
   text-decoration: none;
   border-bottom: 1px solid #D0F346;
@@ -116,71 +138,42 @@ a.link{
     transition:.5s;
   }
 
-  /*--layering--*/
-  .overlap-up{
-    margin-top: -70%;
-  }
-  .layer-higher{
-    z-index: 1;
-    height: 300px;
-  }
-  .portrait{
-    width: 100%;
-    height: auto;
-    max-width: 540px;
-    float: right;
-  }
-/*--mediaqueries--*/
-/*Extra small devices (portrait phones, less than 576px)*/
-/*No media query since this is the default in Bootstrap*/
-h1{font-weight: 500; line-height: 2rem;}
-h2{font-size: 1rem; line-height: 1.75rem;}
-h3, h4{font-size: 1rem; line-height: 1.5rem;}
-.text-align{text-align: left;}
-.dot{display: none;}
-/*vertical space*/
-.spacing-vertical{margin-bottom: 22%;}
+/*vertical spacing*/
+.spacing-vertical, .more-spacing-vertical{margin-bottom: 25%;}
 
-/*Small devices (landscape phones, 576px and up)*/
+/*SMALL MEDIA QUERY*/
 @media (min-width: 576px) {
-  h1{
-    font-size: 2rem;
-    line-height: 2.5rem;
-    font-weight: 500;
-  }
+  h1{line-height: 2.5rem;}
+  h4{font-size: 1.5rem; line-height: 2.25rem;} /* 24/36px */
 
   .overlap-up{
     margin-top: -35%;
   }
-  }
-  /*vertical space (mediaquery 576)*/
-  .spacing-vertical{margin-bottom: 10%;}
-
-@media (min-width: 768px) {
-.text-align{text-align: right;}
 }
 
-@media (min-width: 992px) {
-  h1{
-    font-size: 3rem;
-    line-height: 3.75rem;
-    font-weight: 500;
-  }
+  /*vertical spacing (mediaquery 576)*/
+  .spacing-vertical, .more-spacing-vertical{margin-bottom: 10%;}
 
+/*MEDIUM MEDIA QUERY*/
+@media (min-width: 768px) {
+  .text-align{text-align: right;}
+  p{font-size: 1rem; line-height: 1.75rem;}
+}
+
+/*LARGE MEDIA QUERY*/
+@media (min-width: 992px) {
+  h1{font-size: 3rem; line-height: 3.75rem;}
   .overlap-up{
     margin-top: -25%;
   }
-  .timeline{border-left: thin solid #EEE;}
-  .dot{display: block;}
-}
 
-/*Extra large devices (large desktops, 1200px and up)*/
+}
+/*XL MEDIA QUERY*/
 @media (min-width: 1200px) {
-  h1{font-size: 3.5rem; font-weight: 500;}
-  h2{font-size: 1.25rem; line-height: 2rem;}
-  h3{font-size: 1.25rem;}
-  /*vertical space (mediaquery 1200)*/
+  h1{font-size: 3.25rem; line-height: 4rem;}
+  /*vertical spaceing (mediaquery 1200)*/
   .spacing-vertical{margin-bottom: 8%;}
+  .more-spacing-vertical{margin-bottom: 15%;}
   .overlap-up{
     margin-top: -18%;
   }
@@ -205,16 +198,44 @@ border-bottom: 1px solid #D0F346;
 box-shadow: 0 -8px 0 #D0F346 inset;
 }
 
-.dot{margin-top: 6px; margin-left: -24px;}
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dropshaddow{box-shadow: 0px 3px 15px rgba(0,0,0,0.25)}
+
+video{
+  display: block;
+}
+
+/*--image spacers--*/
+
+.videobg{
+  background-color: #353E55;
+}
 
 
 /*--spacing--*/
+.spacer-5{margin-top: 5%;}
 .spacer-10{margin-top: 10%;}
 .spacer-15{margin-top: 15%;}
+.spacer-3{margin-top: 3%;}
 
 .mb-0{margin-bottom: 0;}
 .mt-0{margin-top: 0;}
 .mt-4{margin-top: 4px;}
+.mt-8{margin-top: 8px;}
+.ml-24{margin-left: 24px}
+
+/*--screens 768 and larger--*/
+@media (min-width: 768px) {
+  .spacer-10{margin-top: 5%;}
+  .spacer-gutter{margin-top: 2%;}
+
+}
+
+
 
 /*--icons--*/
 .your-icon {

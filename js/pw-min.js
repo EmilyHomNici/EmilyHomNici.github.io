@@ -1,1 +1,1 @@
-var password,pass1="cool";password=prompt("Please enter your password to view this page!"," "),password===pass1?alert("Password Correct! Click OK to enter!"):window.location="index.html";
+var password,pass1="cool";password=prompt("Please enter your password to view this page!"," "),password===test?alert("Password Correct! Click OK to enter!"):window.location="index.html";
