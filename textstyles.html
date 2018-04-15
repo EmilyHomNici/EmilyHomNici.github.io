@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/css/emily.css">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Heebo:400,500,700');</style>
+
+  </head>
+<body>
+
+
+<!--TOP SECTION-->
+<div class="container-fluid">
+  <div class="row spacer-56">
+    <div class="col-12">
+      <h1>This is a h1 heading</h1>
+      <h2>This is a h2 heading</h2>
+      <h3>This is a h3 heading</h3>
+      <h4>This is a h4 heading</h4>
+      <h5>This is a h5 heading</h5>
+      <h6>This is a h6 heading</h6>
+      <p>This is a paragraph Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus.</p>
+    </div>
+
+  </div>
+</div><!--end top-section container-fluid-->
+
+  <!--jquerycdn-->
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+    window.sr = ScrollReveal({ scale: 0, distance: '10px', delay: 200});
+      sr.reveal('.scroll-1', {delay: 0});
+      sr.reveal('.scroll-2', {delay: 400});
+      sr.reveal('.scroll-3');
+      sr.reveal('.scroll-4');
+      sr.reveal('.scroll-5');
+      sr.reveal('.scroll-6');
+      sr.reveal('.scroll-7');
+      sr.reveal('.scroll-8');
+      sr.reveal('.scroll-9');
+      sr.reveal('.scroll-10');
+      sr.reveal('.scroll-11');
+      sr.reveal('.scroll-12');
+      sr.reveal('.scroll-13');
+      sr.reveal('.scroll-14');
+      sr.reveal('.scroll-15');
+      sr.reveal('.scroll-16');
+      sr.reveal('.scroll-17');
+      sr.reveal('.scroll-18');
+      sr.reveal('.scroll-19');
+      sr.reveal('.scroll-20');
+      sr.reveal('.scroll-21');
+
+    </script>
+
+    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
+    <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
+    <script>
+      // Hide navbar
+        function hideDetect(){
+        $(".navbar-fixed-top").autoHidingNavbar();
+        if ($(window).width() > 576){
+      // Keep menu on big screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
+        $(".navbar-fixed-top").autoHidingNavbar('show');
+        }
+        else {
+      // Auto-hide menu on tiny screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
+        }
+        }
+      // Launch startup detection
+        hideDetect();
+      // Re-launch dection in window resized
+        window.onresize = hideDetect;
+    </script>
+
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </body>
+</html>

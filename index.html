@@ -1,8 +1,276 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/css/emily.css">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css?family=Lora:400,700·Heebo:400,500,700');</style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+  </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages</p>
-<p>I'm edited locally</p>
-</body>
+  <!--Work sidebar-->
+  <div id="wrapper" class="toggled">
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+              <ul class="sidebar-nav">
+                <li><a href="blocknet.html">Block DX</a></li>
+                <li><a href="opportunities.html">IBM Opportunities</a></li>
+                <li><a href="arity.html">Arity.com</a></li>
+              </ul>
+          </div>
+          <!-- /#sidebar-wrapper -->
+
+  <!--End Work sidebar-->
+
+<!--navbar-->
+<!-- Static navbar -->
+<div class="navbar navbar-primary navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
+    </a>
+
+      <button class="navbar-toggle btn navbar-btn pull-right" data-toggle="collapse" data-target="#menu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span></button>
+
+  </div>
+</div>
+<!-- vertical navbar -->
+<div class="vert-nav">
+      <ul class="vertnav charspacing">
+        <li><a href="#menu-toggle" class="navlink" id="menu-toggle">work</a></li>
+        <li><a class="navlink" href="#section-about">about me</a></li>
+        <li><a class="navlink" href="#section-contact">contact</a></li>
+      </ul>
+ </div>
+<!-- end vertical navbar -->
+
+<!-- Mobile Menu-->
+<div id="menu" class="collapse navbar-collapse">
+    <ul class="nav nav-pills nav-stacked" data-spy="affix">
+      <li class="mobilemenu"><a href="#section-work">work</a></li>
+        <li class="submenu"><a href="blocknet.html">BlockDX</a></li>
+        <li class="submenu"><a href="opportunities.html">IBM Opportunities</a></li>
+        <li class="submenu"><a href="arity.html">Arity</a></li>
+
+        <li class="mobilemenu"><a href="#section-about">about me</a></li>
+        <li class="mobilemenu"><a href="#section-contact">contact</a></li>
+    </ul>
+</div>
+<!--nav bar end-->
+
+<!--For work sidebar toggle, Page Content -->
+        <div id="page-content-wrapper">
+
+<!--TOP SECTION-->
+  <div class="section-home container-fluid my-4 ">
+    <!--ROW: Nav + h1-->
+    <div class="row my-4">
+      <!--Hi I'm Emily-->
+      <div class="col-12 offset-sm-1 col-sm-7 offset-lg-1 col-lg-8 layer-higher scroll-1">
+        <h1 class="spacerbottom-5">Hi, I’m Emily Hom-Nici. I’m a senior interactive designer currently living in Chicago & working at VSA Partners</h1>
+        <h6 class="text-uppercase eyebrow"><a href="mailto:emily@hom-nici.com" class="link">Let's chat</a></h6>
+      </div>
+    </div>
+
+    <!--ROW: portrait, pulled up-->
+    <div class="row overlap-up spacing-vertical scroll-2">
+      <div class="col-sm-5 offset-sm-6 col-8 offset-4">
+          <img src="/images/portrait.jpg" class="portrait">
+      </div>
+    </div>
+  </div>
+
+
+<!--WORK SECTION-->
+  <div id="section-work" class="container-fluid spacing-vertical scroll-3">
+    <div class="row ">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+        <h6 class="text-uppercase eyebrow">featured work</h6></div>
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3 parent">
+        <!--Blocknet project-->
+        <div class="hoverable spacerbottom-5">
+          <div class="row my-3">
+            <div class="col">
+                <hr />
+            </div>
+          </div>
+          <a href="blocknet.html"><div class="row">
+            <div class="col-10">
+              <h4 class="mb-0">Block DX</h4>
+              <p class="secondary-font"> Native application · Blocknet (Blockchain) · 2017</p>
+            </div>
+          </div></a>
+        </div>
+
+        <!--IBM Opportunities App project-->
+        <div class="hoverable spacerbottom-5">
+          <div class="row my-3">
+            <div class="col">
+                <hr />
+            </div>
+          </div>
+          <a href="opportunities.html"><div class="row">
+            <div class="col-10">
+              <h4 class="mb-0">IBM Opportunities App</h4>
+              <p class="secondary-font">PWS App · IBM · 2017</p>
+            </div>
+            <div class="col-2">
+              <i class="material-icons lightgray float-right">lock</i>
+            </div>
+          </div></a>
+        </div>
+        <!--Arity project-->
+        <div class="hoverable spacerbottom-5">
+          <div class="row my-3">
+            <div class="col">
+                <hr />
+            </div>
+          </div>
+          <a href="arity.html"><div class="row">
+            <div class="col">
+              <h4 class="mb-0">Arity.com</h4>
+              <p class="secondary-font">CMS & Homepage revamp · Arity (Allstate) · 2018</h4>
+            </div>
+          </div></a>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+<!--ABOUT SECTION-->
+  <div id="section-about" class="container-fluid spacing-vertical scroll-4">
+    <div class="row">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-m-1 col-lg-6 offset-lg-1 col-xl-4 offset-xl-3">
+        <h6 class="text-uppercase eyebrow">about me</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-m-1 col-lg-6 offset-lg-1 col-xl-4 offset-xl-3 spacerbottom-10">
+        <p>I am an interaction designer who is passionate about creating elegant design solutions to solve users’ unique problems or products’ unique purposes. I thrive when working collaboratively with cross-disciplinary minds on intricate challenges. Clients that I have had the pleasure to work with include IBM, Allstate, CME Group, GE, Hyatt, Siemens, and Hayneedle.</p>
+        <p>
+        I am a bit of a creative hobby collector. I dabble in front-end code, woodworking, sewing, crafting, drawing, and painting.
+        </p>
+        <p>
+          Currently at VSA Partners in Chicago. Texas native.
+        </p>
+      </div>
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-3 col-lg-3 offset-lg-1 col-xl-2 align-self-end mb-3 secondary-font">
+          <p><a href="vsavalues.html" class="link">VSA Values</a></p>
+          <p><a href="https://www.vsapartners.com/ideas/design-meet-crypto-vsas-design-guide-cryptocurrency-brands/" class="link" target="_blank">Designing for Crypto</a></p>
+          <p><a href="codeclub.html" class="link">CodeClub</a></p>
+      </div>
+    </div>
+  </div>
+
+<!--CONTACT SECTION-->
+<div id="section-contact" class="container-fluid scroll-5 spacing-vertical">
+  <div class="row">
+    <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3 text-center">
+      <a href="index.html"><img alt="EHN Logo" src="/images/EHN_logo@2x.png" width="50px"></a>
+      <a href="mailto:emily@hom-nici.com"><h4 class="spacer-5">emily@hom-nici.com</h4></a>
+      <h6>
+        <a href="http://www.linkedin.com/in/emilyhomnici" class="smalllink" target="_blank">linkedin</a> · <a href="https://www.instagram.com/emilyhomnici/" class="smalllink">instagram</a> · <a href="https://dribbble.com/EmilyHomNici" class="smalllink">dribbble</a> · <a href="https://twitter.com/emilyhomnici" class="smalllink">twitter</a></h6>
+    </div>
+  </div>
+</div> <!--end contact section-->
+
+<!--FOOTER SECTION-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-11 offset-sm-1 col-12">
+        <hr />
+      </div>
+      <div class="col-sm-11 offset-sm-1 col-12 mb-10">
+        <h6>Designed and coded by me © Emily Hom-Nici 2018 </h6>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /#page-content-wrapper for work sidebar toggle -->
+</div>  <!-- /#wrapper for work sidebar toggle -->
+
+  <!--jquerycdn-->
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+    window.sr = ScrollReveal({ scale: 0, distance: '10px', delay: 200});
+      sr.reveal('.scroll-1', {delay: 0});
+      sr.reveal('.scroll-2', {delay: 400});
+      sr.reveal('.scroll-3');
+      sr.reveal('.scroll-4');
+      sr.reveal('.scroll-5');
+    </script>
+
+    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
+    <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
+    <script>
+      // Hide navbar
+        function hideDetect(){
+        $(".navbar-fixed-top").autoHidingNavbar();
+        if ($(window).width() > 576){
+      // Keep menu on big screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
+        $(".navbar-fixed-top").autoHidingNavbar('show');
+        }
+        else {
+      // Auto-hide menu on tiny screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
+        }
+        }
+      // Launch startup detection
+        hideDetect();
+      // Re-launch dection in window resized
+        window.onresize = hideDetect;
+    </script>
+
+<script> //closes the mobile menu when nav item is clicked
+$(function(){
+    var navMain = $(".navbar-collapse"); // avoid dependency on #id
+    // "a:not([data-toggle])" - to avoid issues caused
+    // when you have dropdown inside navbar
+    navMain.on("click", "a:not([data-toggle])", null, function () {
+        navMain.collapse('hide');
+    });
+});
+</script>
+
+<!--Work Side bar-->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper, #menu-toggle").toggleClass("toggled");
+    });
+    </script>
+<!--end Work side bar-->
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </body>
 </html>
