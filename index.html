@@ -16,11 +16,25 @@
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Heebo:400,500,700');</style>
+    <style>@import url('https://fonts.googleapis.com/css?family=Lora:400,700·Heebo:400,500,700');</style>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
   </head>
 <body>
+  <!--Work sidebar-->
+  <div id="wrapper" class="toggled">
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+              <ul class="sidebar-nav">
+                <li><a href="blocknet.html">Block DX</a></li>
+                <li><a href="opportunities.html">IBM Opportunities</a></li>
+                <li><a href="arity.html">Arity.com</a></li>
+              </ul>
+          </div>
+          <!-- /#sidebar-wrapper -->
+
+  <!--End Work sidebar-->
+
 <!--navbar-->
 <!-- Static navbar -->
 <div class="navbar navbar-primary navbar-fixed-top" role="navigation">
@@ -37,26 +51,41 @@
 
   </div>
 </div>
+<!-- vertical navbar -->
+<div class="vert-nav">
+      <ul class="vertnav charspacing">
+        <li><a href="#menu-toggle" class="navlink" id="menu-toggle">work</a></li>
+        <li><a class="navlink" href="#section-about">about me</a></li>
+        <li><a class="navlink" href="#section-contact">contact</a></li>
+      </ul>
+ </div>
+<!-- end vertical navbar -->
 
-<!-- Menu -->
-<div id="menu" class="panel panel-default panel-collapse collapse">
-  <div class="container">
-    <ul class="nav nav-pills nav-stacked">
-      <li><a href="#"><h1>work</h1></a></li>
-      <li><a href="#"><h1>about me</h1></a></li>
-      <li><a href="#"><h1>contact</h1></a></li>
+<!-- Mobile Menu-->
+<div id="menu" class="collapse navbar-collapse">
+    <ul class="nav nav-pills nav-stacked" data-spy="affix">
+      <li class="mobilemenu"><a href="#section-work">work</a></li>
+        <li class="submenu"><a href="blocknet.html">BlockDX</a></li>
+        <li class="submenu"><a href="opportunities.html">IBM Opportunities</a></li>
+        <li class="submenu"><a href="arity.html">Arity</a></li>
+
+        <li class="mobilemenu"><a href="#section-about">about me</a></li>
+        <li class="mobilemenu"><a href="#section-contact">contact</a></li>
     </ul>
-  </div>
 </div>
 <!--nav bar end-->
 
+<!--For work sidebar toggle, Page Content -->
+        <div id="page-content-wrapper">
+
 <!--TOP SECTION-->
-  <div class="section-home container-fluid mt-4 ">
+  <div class="section-home container-fluid my-4 ">
     <!--ROW: Nav + h1-->
-    <div class="row mt-4">
+    <div class="row my-4">
       <!--Hi I'm Emily-->
       <div class="col-12 offset-sm-1 col-sm-7 offset-lg-1 col-lg-8 layer-higher scroll-1">
-        <h1>Hi, I’m Emily Hom-Nici. I’m a senior interactive designer currently living in Chicago & working at VSA Partners</h1>
+        <h1 class="spacerbottom-5">Hi, I’m Emily Hom-Nici. I’m a senior interactive designer currently living in Chicago & working at VSA Partners</h1>
+        <h6 class="text-uppercase eyebrow"><a href="mailto:emily@hom-nici.com" class="link">Let's chat</a></h6>
       </div>
     </div>
 
@@ -70,135 +99,114 @@
 
 
 <!--WORK SECTION-->
-  <div id="section-work" class="container-fluid more-spacing-vertical scroll-3">
-    <div class="row my-5 ">
-      <div class="col-12 col-sm-7 offset-sm-2 parent">
+  <div id="section-work" class="container-fluid spacing-vertical scroll-3">
+    <div class="row ">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+        <h6 class="text-uppercase eyebrow">featured work</h6></div>
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3 parent">
         <!--Blocknet project-->
-        <div class="hoverable">
-          <div class="row mt-3">
+        <div class="hoverable spacerbottom-5">
+          <div class="row my-3">
             <div class="col">
                 <hr />
             </div>
           </div>
           <a href="blocknet.html"><div class="row">
             <div class="col-10">
-              <h4 class="mb-0">Blocknet Decentralized Exchange</h4>
-              <p class="secondary-font"> Web | Blocknet | 2017</p>
+              <h4 class="mb-0">Block DX</h4>
+              <p class="secondary-font"> Native application · Blocknet (Blockchain) · 2017</p>
             </div>
           </div></a>
         </div>
 
-        <!--Engage! project-->
-        <div class="hoverable">
-          <div class="row mt-3">
+        <!--IBM Opportunities App project-->
+        <div class="hoverable spacerbottom-5">
+          <div class="row my-3">
             <div class="col">
                 <hr />
             </div>
           </div>
-          <a href="engage.html"><div class="row">
+          <a href="opportunities.html"><div class="row">
             <div class="col-10">
-              <h4 class="mb-0">Engage!</h4>
-              <p class="secondary-font">PWS App | IBM | 2017</p>
+              <h4 class="mb-0">IBM Opportunities App</h4>
+              <p class="secondary-font">PWS App · IBM · 2017</p>
             </div>
             <div class="col-2">
-              <i class="material-icons float-right">lock</i>
+              <i class="material-icons lightgray float-right">lock</i>
             </div>
           </div></a>
         </div>
-        <!--Crouton project-->
-        <div class="hoverable">
-          <div class="row mt-3">
+        <!--Arity project-->
+        <div class="hoverable spacerbottom-5">
+          <div class="row my-3">
             <div class="col">
                 <hr />
             </div>
           </div>
-          <div class="row">
+          <a href="arity.html"><div class="row">
             <div class="col">
-              <h4 class="mb-0">Crouton</h4>
-              <p class="secondary-font">App concept | Personal project | 2017</h4>
+              <h4 class="mb-0">Arity.com</h4>
+              <p class="secondary-font">CMS & Homepage revamp · Arity (Allstate) · 2018</h4>
             </div>
-          </div>
+          </div></a>
         </div>
-        <!--Northstar project-->
-        <div class="hoverable">
-          <div class="row mt-3">
-            <div class="col">
-                <hr />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-10">
-              <h4 class="mb-0">Northstar</h4>
-              <p class="secondary-font">Design template system | IBM | 2015</p>
-            </div>
-            <div class="col-2">
-              <i class="material-icons float-right">lock</i>
-            </div>
-          </div>
-        </div>
-        <!--FF project-->
-        <div class="hoverable">
-          <div class="row mt-3">
-            <div class="col">
-                <hr />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-10">
-              <h4 class="mb-0">Futures Fundamentals</h4>
-              <p class="secondary-font">Website facelift | CME | 2016</h4>
-            </div>
-            <div class="col-2">
-              <i class="material-icons float-right text-right">lock</i>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </div>
   </div>
 
 <!--ABOUT SECTION-->
-  <div id="section-about" class="container-fluid more-spacing-vertical scroll-4">
-    <div class="row my-5 ">
-      <div class="col-sm-7 offset-sm-1 col-12 mb-3">
-        <h4>About me</h4>
-        <p class="secondary-font">
-          Chicago based. Texas born. </br>
-          Senior Interactive designer at <a class="link" target="_blank" href="http://www.vsapartners.com/">VSA Partners</a>. </br>
-          Worked on IBM, Google, CME, Siemens…</br>
-          Dabbles in front-end code. Creator of CodeClub.</br>
-          Passionate about solving complex problems with beautiful & functional experiences.</br>
-          Collector of creative hobbies. </br>
-          Married to <a class="link" href="http://mattcastillo.com/">this talented man</a>.
+  <div id="section-about" class="container-fluid spacing-vertical scroll-4">
+    <div class="row">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-m-1 col-lg-6 offset-lg-1 col-xl-4 offset-xl-3">
+        <h6 class="text-uppercase eyebrow">about me</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-6 offset-m-1 col-lg-6 offset-lg-1 col-xl-4 offset-xl-3 spacerbottom-10">
+        <p>I am an interaction designer who is passionate about creating elegant design solutions to solve users’ unique problems or products’ unique purposes. I thrive when working collaboratively with cross-disciplinary minds on intricate challenges. Clients that I have had the pleasure to work with include IBM, Allstate, CME Group, GE, Hyatt, Siemens, and Hayneedle.</p>
+        <p>
+        I am a bit of a creative hobby collector. I dabble in front-end code, woodworking, sewing, crafting, drawing, and painting.
+        </p>
+        <p>
+          Currently at VSA Partners in Chicago. Texas native.
         </p>
       </div>
-      <div class="col-sm-3 col-12 align-self-end mb-3">
-        <div class="line mb-3"></div>
-        <p>
-          emily@hom-nici.com</br>
-          emilyhomnici</br>
-          @emilyhomnici</br>
-          /emilyhomnici</br>
-        </p>
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-3 col-lg-3 offset-lg-1 col-xl-2 align-self-end mb-3 secondary-font">
+          <p><a href="vsavalues.html" class="link">VSA Values</a></p>
+          <p><a href="https://www.vsapartners.com/ideas/design-meet-crypto-vsas-design-guide-cryptocurrency-brands/" class="link" target="_blank">Designing for Crypto</a></p>
+          <p><a href="codeclub.html" class="link">CodeClub</a></p>
       </div>
     </div>
   </div>
 
+<!--CONTACT SECTION-->
+<div id="section-contact" class="container-fluid scroll-5 spacing-vertical">
+  <div class="row">
+    <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3 text-center">
+      <a href="index.html"><img alt="EHN Logo" src="/images/EHN_logo@2x.png" width="50px"></a>
+      <a href="mailto:emily@hom-nici.com"><h4 class="spacer-5">emily@hom-nici.com</h4></a>
+      <h6>
+        <a href="http://www.linkedin.com/in/emilyhomnici" class="smalllink" target="_blank">linkedin</a> · <a href="https://www.instagram.com/emilyhomnici/" class="smalllink">instagram</a> · <a href="https://dribbble.com/EmilyHomNici" class="smalllink">dribbble</a> · <a href="https://twitter.com/emilyhomnici" class="smalllink">twitter</a></h6>
+    </div>
+  </div>
+</div> <!--end contact section-->
 
 <!--FOOTER SECTION-->
   <div class="container-fluid">
-    <div class="row mt-5 ">
+    <div class="row">
       <div class="col-sm-11 offset-sm-1 col-12">
         <hr />
       </div>
-      <div class="col-sm-11 offset-sm-1 col-12">
-        <p>design & coded by me 2017</p>
+      <div class="col-sm-11 offset-sm-1 col-12 mb-10">
+        <h6>Designed and coded by me © Emily Hom-Nici 2018 </h6>
       </div>
     </div>
   </div>
 
-
+</div><!-- /#page-content-wrapper for work sidebar toggle -->
+</div>  <!-- /#wrapper for work sidebar toggle -->
 
   <!--jquerycdn-->
     <script src="jquery.js"></script>
@@ -238,7 +246,25 @@
         window.onresize = hideDetect;
     </script>
 
+<script> //closes the mobile menu when nav item is clicked
+$(function(){
+    var navMain = $(".navbar-collapse"); // avoid dependency on #id
+    // "a:not([data-toggle])" - to avoid issues caused
+    // when you have dropdown inside navbar
+    navMain.on("click", "a:not([data-toggle])", null, function () {
+        navMain.collapse('hide');
+    });
+});
+</script>
 
+<!--Work Side bar-->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper, #menu-toggle").toggleClass("toggled");
+    });
+    </script>
+<!--end Work side bar-->
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

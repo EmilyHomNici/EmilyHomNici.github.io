@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <script src="js/pw.js"></script> Turn on for password protection -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/css/emily.css">
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Heebo:400,500,700');</style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+  </head>
+<body>
+  <!--Work sidebar-->
+  <div id="wrapper" class="toggled">
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+              <ul class="sidebar-nav">
+                <li><a href="blocknet.html">Block DX</a></li>
+                <li><a href="opportunities.html">IBM Opportunities</a></li>
+                <li><a href="arity.html">Arity.com</a></li>
+              </ul>
+          </div>
+          <!-- /#sidebar-wrapper -->
+
+  <!--End Work sidebar-->
+  <!--navbar-->
+  <!-- Static navbar -->
+  <div class="navbar navbar-primary navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
+      </a>
+
+        <button class="navbar-toggle btn navbar-btn pull-right" data-toggle="collapse" data-target="#menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span></button>
+
+    </div>
+  </div>
+  <!-- vertical navbar -->
+  <div class="vert-nav">
+        <ul class="vertnav charspacing">
+          <li><a href="#menu-toggle" class="navlink" id="menu-toggle">work</a></li>
+          <li><a class="navlink" href="./#section-about">about me</a></li>
+          <li><a class="navlink" href="./#section-contact">contact</a></li>
+        </ul>
+   </div>
+  <!-- end vertical navbar -->
+
+  <!-- Mobile Menu-->
+  <div id="menu" class="collapse navbar-collapse">
+      <ul class="nav nav-pills nav-stacked" data-spy="affix">
+        <li class="mobilemenu"><a href="#section-work">work</a></li>
+          <li class="submenu"><a href="blocknet.html">BlockDX</a></li>
+          <li class="submenu"><a href="opportunities.html">IBM Opportunities</a></li>
+          <li class="submenu"><a href="arity.html">Arity</a></li>
+
+          <li class="mobilemenu"><a href="../#section-about">about me</a></li>
+          <li class="mobilemenu"><a href="../#section-contact">contact</a></li>
+      </ul>
+  </div>
+  <!--nav bar end-->
+
+  <!--For work sidebar toggle, Page Content -->
+          <div id="page-content-wrapper">
+
+<!--TOP SECTION-->
+  <div class="container-fluid mt-4 section-home">
+    <!--Hero image-->
+    <div class="row spacer-10">
+      <div class="offset-md-2 col-md-8 scroll-2">
+        <img src="/images/codeclub/CodeClub_Logo.png" width="200px" data-rjs="/images/codeclub/CodeClub_Logo@2x.png" class="img-responsive center-block" alt="" />
+      </div>
+    </div>
+    <!--Project title-->
+    <div class="row mt-4">
+      <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-xl-3 col-xl-6 spacer-15">
+        <h1>Codeclub</h1>
+        <h3 class="text-muted spacer-5">CodeClub is an initiative that I started at VSA to get developers and other creatives together to learn anything related to code.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-xl-3 col-xl-6 spacer-3">
+        <p class="secondary-font">
+          The concept of code club came from a conversation between me and a couple developers on my project. They were commenting on how they liked it when I put code snippets in my QA tickets. During Design Acceptance Testing (DAT), I would go into the inspector, make adjustments to an element (maybe spacing, sizing, color, etc) until I got it to where I wanted it. I would copy my “fix” and suggest it in the ticket. The devs said it removed a lot of the back-and-forth/guess-and-checking that DAT can sometimes have with us perfectionist designers. Ultimately, it created better communication between design and development.</p>
+
+          <p class="secondary-font">We wondered how could we improve VSA with this method? Initially, we thought that maybe I could teach it in a Lunch and Learn. Unfortunately, that really would have required for me to teach the basics of HTML and CSS over a lunch… sadly, I am not a wizard. We had to keep thinking.</p>
+
+          <h5 class="secondary-font">How do we teach the base knowledge of HTML/CSS to more designers at VSA so that they could speak the development language while troubleshooting QA together?</h5>
+
+          <p class="secondary-font">I thought about my college experience learning front-end code:</p>
+            <ol class="secondary-font">
+              <li>We had professors to teach us the high level concepts through a syllabus.</li>
+              <li>They would help us fix and understand our mistakes by pointing them out in the code-editor, in person.</li>
+              <li>We also had classmates at our same level that we could turn to.</li>
+            </ol>
+
+          <p class="secondary-font">Outside of school, how do you recreate that successful learning experience? </p>
+          <ol class="secondary-font">
+            <li>Online tools like Lynda or Codecademy were essentially virtual professors and vetted syllabii</li>
+            <li>Our VSA developers were our in-person experts who could help us fix/understand our mistakes side-by-side.</li>
+            <li>A “club” would create that community of people to learn (and struggle) together.</li>
+          </ol>
+          <h5 class="secondary-font">CodeClub was born.</h5>
+          <p class="secondary-font">I set it up like a book club: Each week the group would individually watch one hour of their online tutorial on their own time. Then, during our CodeClub times (every other week), we would all get back together to discuss and review what the tutorial taught us. This time was used to ask the developers our issues and learn by problem solving together. Sometimes we would answer and talk through the quiz questions that Codecademy offered after each section.</p>
+
+          <p class="secondary-font">By the end of each CodeClub, those of us who made it to the end, were able to say that we had learned a new technical concept that could apply to our work, our side projects, or pursuit of new knowledge!</p>
+        </div>
+
+          <div class="offset-sm-1 col-sm-5 offset-md-2 col-md-4 offset-xl-3 col-xl-3">
+            <img src="/images/codeclub/codeclub_1.jpg" class="img-responsive zoom"/>
+          </div>
+          <div class="col-sm-5 col-md-4 col-xl-3">
+            <img src="/images/codeclub/codeclub_2.jpg" class="img-responsive zoom"/>
+          </div>
+
+        <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-xl-3 col-xl-6 spacer-3">
+          <p class="secondary-font">We’ve run 3 CodeClub sessions at VSA. Some things I’ve learned:</p>
+            <ul class="secondary-font">
+            <li>It’s best if everyone in the club is learning the same thing. At first, we tried allowing everyone to do a different tutorial depending on their interests. However, we found that this muddled the quality of our in-person CodeClub meetings.</li>
+            <li>Everyone is interested in learning code! I sent this invite to everyone in the company, and the interest spanned all disciplines and practices.</li>
+            <li>We liked using Codecademy over Lynda. Codecademy provided an all-in-one coding and learning portal that streamlined the learning experience and reduced the barrier to entry.</li>
+            <li>Every-other-week is probably too long to wait between meetings. It’s better to meet every week to keep the things you learned previously fresh in your mind.</li>
+            <li>We wanted to include the New York office in CodeClub. We found that the best way to do this is to have a CodeClub head in each office to lead the meetings rather than try video chatting together. It was just too difficult to foster good conversation and problem solving over the phone.</li>
+            <li>
+              This format benefits from the “protégé effect” where teaching someone else is the best way to learn.
+            </li>
+            <li>People are busy. And have best intentions. By the end of a CodeClub session participation definitely decreased from the initial interest meeting. But that really didn’t bother me. It’s not about quantity. Having fewer people in the meetings allowed the developers to really focus on individuals’ learning. If only a few people make it to the end and learn something new, that’s a few more people who might not have learned it on their own.</li>
+          </ul>
+          <p class="secondary-font">
+            Learning code or a new skill is hard. Learning it on your own is even harder. Starting CodeClub can help push yourself and others to commit to learn those things you keep putting off. I have really enjoyed tinkering with this concept to help VSAers. Maybe others can build their own CodeClub to help their organization
+          </p>
+      </div>
+    </div>
+</div>
+
+
+<!--CONTACT SECTION-->
+<div id="section-contact" class="container-fluid scroll-5 spacer-15">
+  <div class="row">
+    <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3 text-center">
+      <a href="index.html"><img alt="EHN Logo" src="/images/EHN_logo@2x.png" width="50px"></a>
+      <a href="mailto:emily@hom-nici.com"><h4 class="spacer-5">emily@hom-nici.com</h4></a>
+      <h6 class="secondary-font">
+        <a href="http://www.linkedin.com/in/emilyhomnici" class="smalllink" target="_blank">linkedin</a> · <a href="https://www.instagram.com/emilyhomnici/" class="smalllink">instagram</a> · <a href="https://dribbble.com/EmilyHomNici" class="smalllink">dribbble</a> · <a href="https://twitter.com/emilyhomnici" class="smalllink">twitter</a></h6>
+    </div>
+  </div>
+</div> <!--end contact section-->
+
+<!--FOOTER SECTION-->
+  <div class="container-fluid spacer-15">
+    <div class="row">
+      <div class="col-sm-11 offset-sm-1 col-12">
+        <hr />
+      </div>
+      <div class="col-sm-11 offset-sm-1 col-12 mb-10">
+        <h6 class="secondary-font">Designed and coded by me © Emily Hom-Nici 2018 </h6>
+      </div>
+    </div>
+  </div>
+
+  <!--jquerycdn-->
+    <script src="jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  <!--imagezoom https://github.com/francoischalifour/medium-zoom#usage-->
+    <script src="https://unpkg.com/medium-zoom@0/dist/medium-zoom.min.js"></script>
+    <script type="text/javascript">mediumZoom('.zoom')</script>
+
+  <!--retinajs https://github.com/strues/retinajs-->
+    <script type="text/javascript" src="/js/retina.min.js"></script>
+    <script type="text/javascript">retinajs();</script>
+
+    <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+    window.sr = ScrollReveal({ scale: 0, distance: '10px', delay: 200});
+      sr.reveal('.scroll-1', {delay: 0});
+      sr.reveal('.scroll-2', {delay: 400});
+      sr.reveal('.scroll-3');
+      sr.reveal('.scroll-4');
+      sr.reveal('.scroll-5');
+      sr.reveal('.scroll-6');
+      sr.reveal('.scroll-7');
+      sr.reveal('.scroll-8');
+      sr.reveal('.scroll-9');
+      sr.reveal('.scroll-10');
+      sr.reveal('.scroll-11');
+      sr.reveal('.scroll-12');
+      sr.reveal('.scroll-13');
+      sr.reveal('.scroll-14');
+      sr.reveal('.scroll-15');
+      sr.reveal('.scroll-16');
+      sr.reveal('.scroll-17');
+      sr.reveal('.scroll-18');
+      sr.reveal('.scroll-19');
+      sr.reveal('.scroll-20');
+      sr.reveal('.scroll-21');
+
+    </script>
+
+    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
+    <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
+    <script>
+      // Hide navbar
+        function hideDetect(){
+        $(".navbar-fixed-top").autoHidingNavbar();
+        if ($(window).width() > 576){
+      // Keep menu on big screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
+        $(".navbar-fixed-top").autoHidingNavbar('show');
+        }
+        else {
+      // Auto-hide menu on tiny screens
+        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
+        }
+        }
+      // Launch startup detection
+        hideDetect();
+      // Re-launch dection in window resized
+        window.onresize = hideDetect;
+    </script>
+<!--new +/- on accordian-->
+<script>
+function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
+</script>
+<!--end +/- on accordian-->
+
+<!--Work Side bar-->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper, #menu-toggle").toggleClass("toggled");
+    });
+    </script>
+<!--end Work side bar-->
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  </body>
+</html>
