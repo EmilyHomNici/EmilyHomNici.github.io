@@ -1320,6 +1320,13 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/opportunities_encrypted.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/opportunities_encrypted.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
