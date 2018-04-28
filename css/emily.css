@@ -373,6 +373,8 @@ a.navlink{
   max-width: 540px;
   float: right;
 }
+
+
 /*LAYERING: SMALL MEDIA QUERY*/
 @media (min-width: 576px) {.overlap-up{margin-top: -35%;}
 }
@@ -413,6 +415,27 @@ a.navlink{
   transition:.5s;
   cursor: pointer;
 }
+
+/*home work thumbnail reveal on hover*/
+.hover_img a {}
+.hover_img a span {
+  position:absolute;
+  z-index:99;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/*hover on work: MEDIUM MEDIA QUERY*/
+@media (min-width: 768px) {
+  .hover_img a:hover span {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease 0.25s;
+  }
+}
+
+
+
 /*--end hover on work--*/
 
 /*06 ACCORDION STYLING */
@@ -470,3 +493,13 @@ video{display: block;}
 .videobg{ background-color: #353E55;}
 .pink{background-color: pink;}
 .inheritsize{font-size: inherit !important;}
+
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.gray{
+  background-color: gray;
+}
