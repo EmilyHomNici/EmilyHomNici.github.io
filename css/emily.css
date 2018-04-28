@@ -433,6 +433,12 @@ a.navlink{
     transition: opacity 0.5s ease 0.25s;
   }
 }
+  @media (hover: none) {
+     .hover_img a:hover span {
+       visibility: hidden;
+       opacity: 0;}
+     }
+
 
 
 
