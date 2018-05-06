@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <script src="js/pw.js"></script> Turn on for password protection -->
-
     <!-- CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.css">
     <link rel="stylesheet" href="/css/emily.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,68 +23,62 @@
 
   </head>
 <body>
-  <!--Work sidebar-->
-  <div id="wrapper" class="toggled">
-          <!-- Sidebar -->
-          <div id="sidebar-wrapper">
-              <ul class="sidebar-nav">
-                <li><a href="blocknet.html">Block DX</a></li>
-                <li><a href="opportunities_encrypted.html">IBM Opportunities</a></li>
-                <li><a href="arity.html">Arity.com</a></li>
-              </ul>
-          </div>
-          <!-- /#sidebar-wrapper -->
 
-  <!--End Work sidebar-->
-  <!--navbar-->
-  <!-- Static navbar -->
-  <div class="navbar navbar-primary navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
-      </a>
+<!--navbar-->
+<div id="hero">
+      <div class="container-fluid">
+          <div class="row">
+            <!--logo-->
+            <nav class="col-1">
+              <a class="navbar-brand" href="index.html">
+                <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
+              </a>
+            </nav>
+            <!--hamburger-->
+             <nav class="navbar fixed-top navbar-toggleable-lg navbar-light flex-row-reverse offset-10 col-2">
+                  <!--<a class="navbar-brand" href="#"></a>0-->
+                  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!--<span class="navbar-toggler-icon"></span>-->
+                            <span class="icon-bar top-bar"></span>
+                          	<span class="icon-bar middle-bar"></span>
+                          	<span class="icon-bar bottom-bar"></span>
 
-        <button class="navbar-toggle btn navbar-btn pull-right" data-toggle="collapse" data-target="#menu">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span></button>
+                  </button>
+              </nav>
 
+              <!--dropdown menu-->
+              <div class="collapse fixed-top navbar-collapse justify-content-end pr-0" id="navbarSupportedContent">
+                  <ul class="navbar-nav text-center parent">
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="index.html"><h1>Home</h1></a>
+                    </li>
+
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="./#section-work"><h1>Work</h1></a>
+                    </li>
+
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="./#section-about"><h1>About me</h1></a>
+                    </li>
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="./#section-contact"><h1>Contact</h1></a>
+                    </li>
+
+                  </ul>
+                </div>
+
+
+        </div>
     </div>
-  </div>
-  <!-- vertical navbar -->
-  <div class="vert-nav">
-        <ul class="vertnav charspacing">
-          <li><a href="#menu-toggle" class="navlink" id="menu-toggle">work</a></li>
-          <li><a class="navlink" href="./#section-about">about me</a></li>
-          <li><a class="navlink" href="./#section-contact">contact</a></li>
-        </ul>
-   </div>
-  <!-- end vertical navbar -->
-
-  <!-- Mobile Menu-->
-  <div id="menu" class="collapse navbar-collapse">
-      <ul class="nav nav-pills nav-stacked" data-spy="affix">
-        <li class="mobilemenu"><a href="#section-work">work</a></li>
-          <li class="submenu"><a href="blocknet.html">BlockDX</a></li>
-          <li class="submenu"><a href="opportunities_encrypted.html">IBM Opportunities</a></li>
-          <li class="submenu"><a href="arity.html">Arity</a></li>
-
-          <li class="mobilemenu"><a href="../#section-about">about me</a></li>
-          <li class="mobilemenu"><a href="../#section-contact">contact</a></li>
-      </ul>
-  </div>
-  <!--nav bar end-->
-
-  <!--For work sidebar toggle, Page Content -->
-          <div id="page-content-wrapper">
+</div>
+<!--end nav bar-->
 
 <!--TOP SECTION-->
-  <div class="container-fluid mt-4 section-home">
+  <div class="container-fluid mt-4 section-home spacing-vertical">
     <!--Hero image-->
     <div class="row spacer-10">
       <div class="offset-md-2 col-md-8 scroll-2">
-        <img src="/images/codeclub/CodeClub_Logo.png" width="200px" data-rjs="/images/codeclub/CodeClub_Logo@2x.png" class="img-responsive center-block" alt="" />
+        <img src="/images/codeclub/CodeClub_Logo@2x.png" width="200px" class="img-fluid mx-auto d-block" alt="" />
       </div>
     </div>
     <!--Project title-->
@@ -122,11 +116,11 @@
           <p class="secondary-font">By the end of each CodeClub, those of us who made it to the end, were able to say that we had learned a new technical concept that could apply to our work, our side projects, or pursuit of new knowledge!</p>
         </div>
 
-          <div class="offset-sm-1 col-sm-5 offset-md-2 col-md-4 offset-xl-3 col-xl-3">
-            <img src="/images/codeclub/codeclub_1.jpg" class="img-responsive zoom"/>
+          <div class="mb-1 offset-sm-1 col-sm-5 offset-md-2 col-md-4 offset-xl-3 col-xl-3">
+            <img src="/images/codeclub/codeclub_1.jpg" class="img-fluid zoom"/>
           </div>
           <div class="col-sm-5 col-md-4 col-xl-3">
-            <img src="/images/codeclub/codeclub_2.jpg" class="img-responsive zoom"/>
+            <img src="/images/codeclub/codeclub_2.jpg" class="img-fluid zoom"/>
           </div>
 
         <div class="offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-xl-3 col-xl-6 spacer-3">
@@ -163,28 +157,21 @@
 </div> <!--end contact section-->
 
 <!--FOOTER SECTION-->
-  <div class="container-fluid spacer-15">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-11 offset-sm-1 col-12">
+      <div class="col-12 col-sm-10 offset-sm-1 ">
         <hr />
       </div>
       <div class="col-sm-11 offset-sm-1 col-12 mb-10">
-        <h6 class="secondary-font">Designed and coded by me © Emily Hom-Nici 2018 </h6>
+        <h6>Designed and coded by me © Emily Hom-Nici 2018 </h6>
       </div>
     </div>
   </div>
 
-  <!--jquerycdn-->
-    <script src="jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
   <!--imagezoom https://github.com/francoischalifour/medium-zoom#usage-->
     <script src="https://unpkg.com/medium-zoom@0/dist/medium-zoom.min.js"></script>
     <script type="text/javascript">mediumZoom('.zoom')</script>
-
-  <!--retinajs https://github.com/strues/retinajs-->
-    <script type="text/javascript" src="/js/retina.min.js"></script>
-    <script type="text/javascript">retinajs();</script>
 
     <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -214,48 +201,7 @@
 
     </script>
 
-    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
-    <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
-    <script>
-      // Hide navbar
-        function hideDetect(){
-        $(".navbar-fixed-top").autoHidingNavbar();
-        if ($(window).width() > 576){
-      // Keep menu on big screens
-        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
-        $(".navbar-fixed-top").autoHidingNavbar('show');
-        }
-        else {
-      // Auto-hide menu on tiny screens
-        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
-        }
-        }
-      // Launch startup detection
-        hideDetect();
-      // Re-launch dection in window resized
-        window.onresize = hideDetect;
-    </script>
-<!--new +/- on accordian-->
-<script>
-function toggleIcon(e) {
-    $(e.target)
-        .prev('.panel-heading')
-        .find(".more-less")
-        .toggleClass('glyphicon-plus glyphicon-minus');
-}
-$('.panel-group').on('hidden.bs.collapse', toggleIcon);
-$('.panel-group').on('shown.bs.collapse', toggleIcon);
-</script>
-<!--end +/- on accordian-->
 
-<!--Work Side bar-->
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper, #menu-toggle").toggleClass("toggled");
-    });
-    </script>
-<!--end Work side bar-->
 
 
     <!--[if lt IE 9]>

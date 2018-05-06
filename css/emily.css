@@ -1,5 +1,6 @@
+
 /*01 FONT STUFF*/
-h1{line-height: 2.25rem;} /* 32/36px */
+h1{font-size: 2rem; line-height: 2.25rem;} /* 32/36px */
 h2{font-size: 3rem; line-height: 3.75rem;} /* 48/60px (changes)*/
 h3{font-size: 1.25rem; line-height: 2rem;} /* 20 /36px */
 h4{font-size: 1.5rem; line-height: 2.25rem; color: #4a4a4a;} /* 24/36px*/
@@ -76,6 +77,7 @@ ul ol{
     padding-left: 14px;
     display: block;
   }
+  
 
   ol li{
     margin-bottom: 16px;
@@ -130,6 +132,18 @@ ul ol{
 .spacing-vertical{margin-bottom: 30%;}
 .no-padding{padding-left: 0; padding-right: 0;}
 
+/*spacing when anchor link down*/
+#section-work::before, #section-about::before{
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
+/*maxwidth for icons on arity page*/
+.maxwidth-50{max-width: 50%;}
+
 /*Spacing: MEDIUM MEDIA QUERY*/
 @media (min-width: 768px) {
   .spacer-10{margin-top: 5%;}
@@ -146,12 +160,187 @@ ul ol{
 
 /*sections*/
 body{position:relative;}
-.section-home, .section-work, .section-about, .section-contact
+.section-work, .section-about, .section-contact
 body{padding-top: 100px;}
+.section-home {padding-top: 20px;}
+
+#navbarSupportedContent{
+  min-height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+    #navbarSupportedContent.collapse{
+      background-color: white;
+      opacity: 1;
+      transition: opacity 0.2s ease;
+    }
+
+.navbar {
+    width:100%;
+    background:none !important;
+}
+    .navbar-brand{
+      height: auto;
+      padding-left: 0;
+      padding-top: 15px;
+    }
+      .navbar-brand img{width: 50px;}
+
+    .navbar-toggler {
+        cursor:pointer;
+        outline:0;
+        border: none;
+        padding: 0.25rem;
+        margin-top: 0px;
+    }
+
+    .navbar-nav{
+      background-color: white;
+      margin-top: 100px;
+    }
+
+    .navbar-collapse{
+      z-index: 1029;
+    }
+
+    .nav-link {
+        font-weight:400;
+    }
+
+    .nav-item {
+        padding: 0.5rem 0;
+        font-family: "Lora", serif;
+      }
+
+      .parent ul{
+        -webkit-transition:.5s;
+        -moz-transition:.5s;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        transition:.5s;
+      }
+      .parent >li{
+        -webkit-transition:.5s;
+        -moz-transition:.5s;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        transition:.5s;
+      }
+      .parent:hover > li{
+        opacity: 0.3;
+        -webkit-transition:.5s;
+        -moz-transition:.5s;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        transition:.5s;
+      }
+
+      .parent:hover > li:hover {
+        opacity: 1;
+        -webkit-transition:.5s;
+        -moz-transition:.5s;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        transition:.5s;
+        cursor: pointer;
+      }
+    /*.nav-item a{padding-right: 1rem !important;}
+    .nav-item a:hover {
+      text-decoration: none;
+      border-right: 1px solid #D0F346;
+      box-shadow: -4px 0 0 #D0F346 inset;
+      -webkit-transition:.5s;
+      -moz-transition:.5s;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      transition:.5s;
+    }
+*/
+/*toggle*/
+.icon-bar {
+	width: 22px;
+	height: 2px;
+	background-color: black;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px;
+  margin-left: 6px;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+  margin-top: 12px;
+  height: 40px;
+  width: 40px;
+}
+
+/*hamburger animation*/
+
+.navbar-toggler .top-bar {
+  -webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 10% 10%;
+	-ms-transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  -webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 10% 90%;
+	-ms-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+
+}
+
+.navbar-toggler.collapsed .top-bar {
+  -webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+}
+/*end nav toggle*/
+
+
+/*.mobilemenu{font-size: 2rem;}
+        .submenu{
+          padding: 0;
+          text-indent: 2rem;
+          font-size: 1.125rem;
+          line-height: 1.25rem;
+          font-family: "heebo";}
+
+          .submenu:before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: calc(50% - 1px);
+            width: 1.5rem;
+            height: 1px;
+            background: #c5c5c5;
+          }
+*/
 
 /*vertical navigation*/
-.vert-nav {
-  display: none; /*not shown until medium mediaquery*/
+/*.vert-nav {
+  display: none; /*not shown until medium mediaquery
   width:100vh;
   margin-left: 40px;
   margin-top: 115px;
@@ -195,7 +384,7 @@ a.navlink{
   }
 /*end vertical navigation*/
 
-/*-Nav: Toggle work*/
+/*-Nav: Toggle work
 #wrapper {
     padding-left: 200px;
     -webkit-transition: all 0.5s ease;
@@ -240,7 +429,7 @@ a.navlink{
   background: #D0F346;
 }
 
-/* -Nav: Sidebar Styles */
+/* -Nav: Sidebar Styles
 
 .sidebar-nav {
     position: absolute;
@@ -282,7 +471,7 @@ a.navlink{
 /* end work toggle */
 
 /*Nav: mobile hamburger*/
-/*-fullscreen menu*/
+/*-fullscreen menu
 #menu {
   background: rgba(255,255,255,.95);
   position: absolute;
@@ -295,9 +484,9 @@ a.navlink{
   border-radius: 0;
 }
 .navbar-header {float: none;}
-    .navbar-toggle {display: block; border: none; margin-top: 24px; margin-right: 0 !important;} /*hamburger button area*/
-    .navbar-collapse {border-top: 0px solid transparent; box-shadow: inset 0 0px 0 rgba(255,255,255,0.1);} /*fullscreen takeover bg*/
-    .navbar-collapse.collapse {display: none!important;} /*hiding menu until toggled*/
+    .navbar-toggle {display: block; border: none; margin-top: 24px; margin-right: 0 !important;} /*hamburger button area
+    .navbar-collapse {border-top: 0px solid transparent; box-shadow: inset 0 0px 0 rgba(255,255,255,0.1);} /*fullscreen takeover bg
+    .navbar-collapse.collapse {display: none!important;} /*hiding menu until toggled
     .navbar-nav {float: none!important; margin: 7.5px -15px;}
     .navbar-nav>li {float: none;}
     .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px;}
@@ -308,10 +497,10 @@ a.navlink{
     .navbar-toggle:hover {background-color: transparent !important;}
       .navbar-toggle:hover .icon-bar {background-color: black !important;}
     .navbar{min-height: 90px; background-color: rgba(255,255,255,.95);}
-    /* logo*/
+    /* logo
     .navbar-brand img{width: 50px;}
     .navbar-brand{ height: auto; padding-left: 0;}
-    #menu ul{margin-left: 20px;} /*location of the nav items from left*/
+    #menu ul{margin-left: 20px;} /*location of the nav items from left
     #menu li {text-align: left; background: none}
     #menu a:hover {color: #D0F346;}
     .nav-pills > li > a:hover, .nav-pills > li > a:focus {background-color: transparent; color: white;}
@@ -334,7 +523,7 @@ a.navlink{
           background: #c5c5c5;
         }
 
-/*Nav: SMALL MEDIA QUERY*/
+/*Nav: SMALL MEDIA QUERY
 @media (min-width: 576px) {
   .navbar-header {float: none;}
   .navbar-toggle {display: block;border: 0;}
@@ -347,14 +536,14 @@ a.navlink{
   .navbar-brand img{width: 60px;}
   .navbar-brand{padding-left: 0px !important;}
   .navbar{background-color: transparent;}
-  #menu ul{margin-left: 60px;} /*location of the nav items from left*/
+  #menu ul{margin-left: 60px;} /*location of the nav items from left
 }
 
 
-/*Nav: MEDIUM MEDIA QUERY*/
+/*Nav: MEDIUM MEDIA QUERY
 @media (min-width: 768px) {.navbar-toggle {display: none;}.navbar-brand{padding-left: 15px !important;}.vert-nav{display: block}}
 
-/*Nav: XL MEDIA QUERY*/
+/*Nav: XL MEDIA QUERY
 @media (min-width: 1200px) {.navbar-brand img{width: 60px;}}
 
 /*--end nav--*/
@@ -478,6 +667,14 @@ a.navlink{
 }
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {border-top: none;}
+
+.panel-title .arrow {
+  transition: .3s transform ease-in-out;
+}
+
+.panel-title .collapsed .arrow{
+  transform: rotate(-180deg);
+}
 
 /*end of accordian styling*/
 

@@ -10,10 +10,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.css">
     <link rel="stylesheet" href="/css/emily.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -22,9 +24,59 @@
 
   </head>
 <body>
-  <!--Work sidebar-->
+
+<!--new navbar-->
+<div id="hero">
+      <div class="container-fluid">
+          <div class="row">
+            <!--logo-->
+            <nav class="col-1">
+              <a class="navbar-brand" href="index.html">
+                <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
+              </a>
+            </nav>
+            <!--hamburger-->
+             <nav class="navbar fixed-top navbar-toggleable-lg navbar-light flex-row-reverse offset-10 col-2">
+                  <!--<a class="navbar-brand" href="#"></a>0-->
+                  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!--<span class="navbar-toggler-icon"></span>-->
+                            <span class="icon-bar top-bar"></span>
+                          	<span class="icon-bar middle-bar"></span>
+                          	<span class="icon-bar bottom-bar"></span>
+
+                  </button>
+              </nav>
+
+              <!--dropdown menu-->
+              <div class="collapse fixed-top navbar-collapse justify-content-end pr-0" id="navbarSupportedContent">
+                  <ul class="navbar-nav text-center parent">
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="index.html"><h1>Home</h1></a>
+                    </li>
+
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="#section-work"><h1>Work</h1></a>
+                    </li>
+
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="#section-about"><h1>About me</h1></a>
+                    </li>
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="#section-contact"><h1>Contact</h1></a>
+                    </li>
+
+                  </ul>
+                </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end new nav bar-->
+
+<!--OLD Work sidebar
   <div id="wrapper" class="toggled">
-          <!-- Sidebar -->
+          <!Sidebar
           <div id="sidebar-wrapper">
               <ul class="sidebar-nav">
                 <li><a href="blocknet.html">Block DX</a></li>
@@ -32,12 +84,10 @@
                 <li><a href="arity.html">Arity.com</a></li>
               </ul>
           </div>
-          <!-- /#sidebar-wrapper -->
-
-  <!--End Work sidebar-->
-
-<!--navbar-->
-<!-- Static navbar -->
+          <!/#sidebar-wrapper -->
+<!--OLD End Work sidebar-->
+<!--OLD navbar-->
+<!-- Static navbar
 <div class="navbar navbar-primary navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
@@ -52,7 +102,7 @@
 
   </div>
 </div>
-<!-- vertical navbar -->
+<!vertical navbar
 <div class="vert-nav">
       <ul class="vertnav charspacing">
         <li><a href="#menu-toggle" class="navlink" id="menu-toggle">work</a></li>
@@ -60,9 +110,8 @@
         <li><a class="navlink" href="#section-contact">contact</a></li>
       </ul>
  </div>
-<!-- end vertical navbar -->
-
-<!-- Mobile Menu-->
+<!end vertical navbar -->
+<!-- OLD Mobile Menu
 <div id="menu" class="collapse navbar-collapse">
     <ul class="nav nav-pills nav-stacked" data-spy="affix">
       <li class="mobilemenu"><a href="#section-work">work</a></li>
@@ -74,10 +123,10 @@
         <li class="mobilemenu"><a href="#section-contact">contact</a></li>
     </ul>
 </div>
-<!--nav bar end-->
+nav bar end
 
-<!--For work sidebar toggle, Page Content -->
-        <div id="page-content-wrapper">
+For work sidebar toggle, Page Content
+        <div id="page-content-wrapper">-->
 
 <!--TOP SECTION-->
   <div class="section-home container-fluid my-4 ">
@@ -99,7 +148,7 @@
   </div>
 
 <!--WORK SECTION-->
-<div class="container-fluid spacing-vertical scroll-3">
+<div id="section-work" class="container-fluid spacing-vertical scroll-3">
   <div class="row">
     <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
       <h6 class="text-uppercase eyebrow">featured work</h6>
@@ -117,7 +166,7 @@
 
             <!--Project thumbnail-->
             <div class="col-md-4">
-              <span><img src="../images/projects/blocknet/Block_Hero@2x.jpg" alt="image" class="img-responsive"></span>
+              <span><img src="../images/projects/blocknet/Block_Hero@2x.jpg" alt="image" class="img-fluid"></span>
             </div>
           </div>
         </a>
@@ -134,7 +183,7 @@
             </div>
 
             <div class="col-md-4">
-              <span>  <img src="/images/projects/opportunities/Opportunities_Hero.png" data-rjs="/images/projects/opportunities/Opportunities_Hero@2x.png" alt="image" class="img-responsive"></span>
+              <span>  <img src="/images/projects/opportunities/Opportunities_Hero@2x.png" alt="image" class="img-fluid"></span>
             </div>
           </div>
         </a>
@@ -151,7 +200,7 @@
             </div>
 
             <div class="col-md-4">
-              <span><img src="/images/projects/arity/A_Hero.jpg" data-rjs="/images/projects/arity/A_Hero@2x.jpg" alt="image" class="img-responsive"></span>
+              <span><img src="/images/projects/arity/A_Hero@2x.jpg" alt="image" class="img-fluid"></span>
             </div>
           </div>
         </a>
@@ -179,7 +228,7 @@
           Currently at VSA Partners in Chicago. Texas native.
         </p>
       </div>
-      <div class="col-12 col-sm-10 offset-sm-1 col-md-3 col-lg-3 offset-lg-1 col-xl-2 align-self-end mb-3 secondary-font">
+      <div class="col-12 col-sm-10 offset-sm-1 col-md-3 col-lg-3 offset-lg-1 col-xl-2 mb-3 secondary-font">
           <p><a href="vsavalues.html" class="link">VSA Values</a></p>
           <p><a href="https://www.vsapartners.com/ideas/design-meet-crypto-vsas-design-guide-cryptocurrency-brands/" class="link" target="_blank">Designing for Crypto</a></p>
           <p><a href="codeclub.html" class="link">CodeClub</a></p>
@@ -202,7 +251,7 @@
 <!--FOOTER SECTION-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-11 offset-sm-1 col-12">
+      <div class="col-12 col-sm-10 offset-sm-1 ">
         <hr />
       </div>
       <div class="col-sm-11 offset-sm-1 col-12 mb-10">
@@ -211,12 +260,13 @@
     </div>
   </div>
 
-</div><!-- /#page-content-wrapper for work sidebar toggle -->
-</div>  <!-- /#wrapper for work sidebar toggle -->
 
-  <!--jquerycdn-->
+  <!--jquerycdn
     <script src="jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>-->
+<!--codyhouse nav
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>  Resource jQuery -->
 
 
     <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
@@ -230,28 +280,6 @@
       sr.reveal('.scroll-5');
     </script>
 
-    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
-    <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
-    <script>
-      // Hide navbar
-        function hideDetect(){
-        $(".navbar-fixed-top").autoHidingNavbar();
-        if ($(window).width() > 576){
-      // Keep menu on big screens
-        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
-        $(".navbar-fixed-top").autoHidingNavbar('show');
-        }
-        else {
-      // Auto-hide menu on tiny screens
-        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
-        }
-        }
-      // Launch startup detection
-        hideDetect();
-      // Re-launch dection in window resized
-        window.onresize = hideDetect;
-    </script>
-
 <script> //closes the mobile menu when nav item is clicked
 $(function(){
     var navMain = $(".navbar-collapse"); // avoid dependency on #id
@@ -263,14 +291,6 @@ $(function(){
 });
 </script>
 
-<!--Work Side bar-->
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper, #menu-toggle").toggleClass("toggled");
-    });
-    </script>
-<!--end Work side bar-->
 <!--no touch detection-->
 
 

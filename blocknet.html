@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <script src="js/pw.js"></script> Turn on for password protection -->
-
     <!-- CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="/css/bootstrap-theme.css">
     <link rel="stylesheet" href="/css/emily.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <!--fonts-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,61 +23,55 @@
 
   </head>
 <body>
-  <!--Work sidebar-->
-  <div id="wrapper" class="toggled">
-          <!-- Sidebar -->
-          <div id="sidebar-wrapper">
-              <ul class="sidebar-nav">
-                <li><a href="blocknet.html">Block DX</a></li>
-                <li><a href="opportunities_encrypted.html">IBM Opportunities</a></li>
-                <li><a href="arity.html">Arity.com</a></li>
-              </ul>
-          </div>
-          <!-- /#sidebar-wrapper -->
 
-  <!--End Work sidebar-->
-  <!--navbar-->
-  <!-- Static navbar -->
-  <div class="navbar navbar-primary navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
-      </a>
+<!--navbar-->
+<div id="hero">
+      <div class="container-fluid">
+          <div class="row">
+            <!--logo-->
+            <nav class="col-1">
+              <a class="navbar-brand" href="index.html">
+                <img alt="EHN Logo" src="/images/EHN_logo@2x.png">
+              </a>
+            </nav>
+            <!--hamburger-->
+             <nav class="navbar fixed-top navbar-toggleable-lg navbar-light flex-row-reverse offset-10 col-2">
+                  <!--<a class="navbar-brand" href="#"></a>0-->
+                  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!--<span class="navbar-toggler-icon"></span>-->
+                            <span class="icon-bar top-bar"></span>
+                          	<span class="icon-bar middle-bar"></span>
+                          	<span class="icon-bar bottom-bar"></span>
 
-        <button class="navbar-toggle btn navbar-btn pull-right" data-toggle="collapse" data-target="#menu">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span></button>
+                  </button>
+              </nav>
 
+              <!--dropdown menu-->
+              <div class="collapse fixed-top navbar-collapse justify-content-end pr-0" id="navbarSupportedContent">
+                  <ul class="navbar-nav text-center parent">
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="index.html"><h1>Home</h1></a>
+                    </li>
+
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="./#section-work"><h1>Work</h1></a>
+                    </li>
+
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="./#section-about"><h1>About me</h1></a>
+                    </li>
+                    <li class="nav-item hoverable">
+                        <a class="nav-link" href="./#section-contact"><h1>Contact</h1></a>
+                    </li>
+
+                  </ul>
+                </div>
+
+
+        </div>
     </div>
-  </div>
-  <!-- vertical navbar -->
-  <div class="vert-nav">
-        <ul class="vertnav charspacing">
-          <li><a href="#menu-toggle" class="navlink" id="menu-toggle">work</a></li>
-          <li><a class="navlink" href="./#section-about">about me</a></li>
-          <li><a class="navlink" href="./#section-contact">contact</a></li>
-        </ul>
-   </div>
-  <!-- end vertical navbar -->
-
-  <!-- Mobile Menu-->
-  <div id="menu" class="collapse navbar-collapse">
-      <ul class="nav nav-pills nav-stacked" data-spy="affix">
-        <li class="mobilemenu"><a href="#section-work">work</a></li>
-          <li class="submenu"><a href="blocknet.html">BlockDX</a></li>
-          <li class="submenu"><a href="opportunities_encrypted.html">IBM Opportunities</a></li>
-          <li class="submenu"><a href="arity.html">Arity</a></li>
-
-          <li class="mobilemenu"><a href="../#section-about">about me</a></li>
-          <li class="mobilemenu"><a href="../#section-contact">contact</a></li>
-      </ul>
-  </div>
-  <!--nav bar end-->
-
-  <!--For work sidebar toggle, Page Content -->
-          <div id="page-content-wrapper">
+</div>
+<!--end nav bar-->
 
 <!--TOP SECTION-->
   <div class="container-fluid mt-4 section-home">
@@ -91,7 +85,7 @@
     <!--Hero image-->
     <div class="row spacer-10">
       <div class="offset-md-1 col-md-10 scroll-2">
-        <img src="/images/projects/blocknet/Block_Hero.jpg" data-rjs="/images/projects/blocknet/Block_Hero@2x.jpg" class="img-responsive center-block zoom" alt="Blocknet hero image with laptop screen of DX and mobile phone with the trade screen" />
+        <img src="/images/projects/blocknet/Block_Hero@2x.jpg" class="img-fluid mx-auto d-block zoom" alt="Blocknet hero image with laptop screen of DX and mobile phone with the trade screen" />
       </div>
     </div>
     <!--Brief info section-->
@@ -128,7 +122,7 @@
   <!--Full-width image spacer-->
   <div class="row spacer-15 scroll-8">
     <div class="col-12 no-padding">
-      <img src="/images/projects/blocknet/Block_Comments.jpg" data-rjs="/images/projects/blocknet/Block_Comments@2x.jpg" class="img-responsive center-block zoom" alt="Full width image of comments from the live demo. Many comments are praising the UI"/>
+      <img src="/images/projects/blocknet/Block_Comments@2x.jpg" class="img-fluid mx-auto d-block zoom" alt="Full width image of comments from the live demo. Many comments are praising the UI"/>
     </div>
   </div>
 </div>
@@ -143,14 +137,14 @@
       <h4 class="text-align">Research</h4>
     </div>
     <!--Section paragraph-->
-    <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5 mt-4">
+    <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5">
       <p class="secondary-font">Before we jumped into design or UX, we performed a competitive audit of 12+ exchanges to familiarize ourselves with all the possible features and get a feel for some of the patterns that users expect in an exchange in this space. We then outlined our point of view on the best solutions for the 9 main features that we thought the DX should include.</p>
     </div>
   </div>
     <!--research image-->
   <div class="row spacer-10">
-    <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 scroll-10">
-      <img src="/images/projects/blocknet/Block_Research.jpg" data-rjs="/images/projects/blocknet/Block_Research@2x.jpg" class="img-responsive center-block zoom" alt="Image showing multiple slides from a research deck."/>
+    <div class="text-center offset-md-1 col-md-10 offset-lg-2 col-lg-8 scroll-10">
+      <img src="/images/projects/blocknet/Block_Research@2x.jpg" class="img-fluid zoom" alt="Image showing multiple slides from a research deck."/>
     </div>
   </div>
 </div><!--END RESEARCH SECTION-->
@@ -163,18 +157,18 @@
         <h4 class="text-align">Moodboarding</h4>
       </div>
       <!--Section paragraph-->
-      <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5 mt-4">
+      <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5">
         <p class="secondary-font">While we were researching features, I was also examining the competitive landscape from a design point of view. Because the cryptocurrency design world is still in its infancy, it was exciting to imagine a unique experience for our client. The client had the beginnings of a brand expression on their original website. Starting here, I moodboarded and presented a few design directions that I felt would evolve the branding experience and work for the UI.</p>
       </div>
       <!--3 moodboards-->
-        <div class="col-12 col-md-4">
-          <img src="/images/projects/blocknet/Block_Moodboard-1.jpg" data-rjs="/images/projects/blocknet/Block_Moodboard-1@2x.jpg" class="img-responsive center-block zoom  spacer-15" alt="Moodboard direction 1 - Light"/>
+        <div class="col-12 col-md-4 text-center">
+          <img src="/images/projects/blocknet/Block_Moodboard-1@2x.jpg" class="img-fluid zoom  spacer-15" alt="Moodboard direction 1 - Light"/>
         </div>
-        <div class="col-12 col-md-4">
-          <img src="/images/projects/blocknet/Block_Moodboard-2.jpg" data-rjs="/images/projects/blocknet/Block_Moodboard-2@2x.jpg" class="img-responsive center-block zoom  spacer-15" alt="Moodboard direction 2a - Dark and flat"/>
+        <div class="col-12 col-md-4 text-center">
+          <img src="/images/projects/blocknet/Block_Moodboard-2@2x.jpg" class="img-fluid zoom  spacer-15" alt="Moodboard direction 2a - Dark and flat"/>
         </div>
-        <div class="col-12 col-md-4">
-          <img src="/images/projects/blocknet/Block_Moodboard-3.jpg" data-rjs="/images/projects/blocknet/Block_Moodboard-3@2x.jpg" class="img-responsive center-block zoom  spacer-15" alt="Moodboard direction 2b - Dark with demension"/>
+        <div class="col-12 col-md-4 text-center">
+          <img src="/images/projects/blocknet/Block_Moodboard-3@2x.jpg" class="img-fluid zoom spacer-15" alt="Moodboard direction 2b - Dark with demension"/>
         </div>
   </div>
 </div><!--end moodboard section container-fluid-->
@@ -188,7 +182,7 @@
         <h4 class="text-align">Design System</h4>
       </div>
       <!--Section paragraph-->
-      <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5 mt-4">
+      <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5">
         <p class="secondary-font">Once we were aligned on a moodboard, I developed the design system components and states. We were working very quickly to establish a MVP product. So, this system of components was very useful for the team to be able to stay agile and adapt to the different configurations and feature changes that we were testing in interface.
         </p>
       </div>
@@ -196,7 +190,7 @@
   <!--Full-width image spacer - Design system -->
   <div class="row spacer-15 scroll-8">
     <div class="col-12 no-padding">
-      <img src="/images/projects/blocknet/Block_System.jpg" data-rjs="/images/projects/blocknet/Block_System@2x.jpg" class="img-responsive center-block zoom" alt="Full width image of the design elements and all their states."/>
+      <img src="/images/projects/blocknet/Block_System@2x.jpg" class="img-fluid mx-auto d-block zoom" alt="Full width image of the design elements and all their states."/>
     </div>
   </div>
   <!--video of pair selector-->
@@ -210,14 +204,14 @@
   </div>
   <!--mobile screens image-->
   <div class="row spacer-15 scroll-8">
-    <div class="col-12 no-padding">
-      <img src="/images/projects/blocknet/Block_Mobilescreens.jpg" data-rjs="/images/projects/blocknet/Block_Mobilescreens@2x.jpg" class="img-responsive center-block zoom" alt="Mobile phone in center and 4 additional screens to the side showing each tab of the mobile experience."/>
+    <div class="col-12 no-padding text-center">
+      <img src="/images/projects/blocknet/Block_Mobilescreens@2x.jpg" class="img-fluid zoom" alt="Mobile phone in center and 4 additional screens to the side showing each tab of the mobile experience."/>
     </div>
   </div>
   <!--ipad image-->
   <div class="row spacer-10">
     <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8 scroll-10">
-      <img src="/images/projects/blocknet/Block_Ipad.jpg" data-rjs="/images/projects/blocknet/Block_Ipad@2x.jpg" class="img-responsive center-block zoom" alt="Vertical ipad with the exchange screen visible"/>
+      <img src="/images/projects/blocknet/Block_Ipad@2x.jpg" class="img-fluid mx-auto d-block spacing-vertical zoom" alt="Vertical ipad with the exchange screen visible"/>
     </div>
   </div>
 
@@ -236,28 +230,25 @@
 </div> <!--end contact section-->
 
 <!--FOOTER SECTION-->
-  <div class="container-fluid spacer-15">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-11 offset-sm-1 col-12">
+      <div class="col-12 col-sm-10 offset-sm-1 ">
         <hr />
       </div>
       <div class="col-sm-11 offset-sm-1 col-12 mb-10">
-        <h6 class="secondary-font">Designed and coded by me © Emily Hom-Nici 2018 </h6>
+        <h6>Designed and coded by me © Emily Hom-Nici 2018 </h6>
       </div>
     </div>
   </div>
 
-  <!--jquerycdn-->
-    <script src="jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
   <!--imagezoom https://github.com/francoischalifour/medium-zoom#usage-->
     <script src="https://unpkg.com/medium-zoom@0/dist/medium-zoom.min.js"></script>
     <script type="text/javascript">mediumZoom('.zoom')</script>
 
-  <!--retinajs https://github.com/strues/retinajs-->
+  <!--retinajs https://github.com/strues/retinajs
     <script type="text/javascript" src="/js/retina.min.js"></script>
-    <script type="text/javascript">retinajs();</script>
+    <script type="text/javascript">retinajs();</script>-->
 
     <!--scroll reveal https://github.com/jlmakes/scrollreveal-->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -287,39 +278,6 @@
 
     </script>
 
-    <!--hide nav on small screens when scroll https://www.virtuosoft.eu/code/bootstrap-autohidingnavbar/ -->
-    <script src="/js/jquery.bootstrap-autohidingnavbar.js"></script>
-    <script>
-      // Hide navbar
-        function hideDetect(){
-        $(".navbar-fixed-top").autoHidingNavbar();
-        if ($(window).width() > 576){
-      // Keep menu on big screens
-        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', true);
-        $(".navbar-fixed-top").autoHidingNavbar('show');
-        }
-        else {
-      // Auto-hide menu on tiny screens
-        $('.navbar-fixed-top').autoHidingNavbar('setDisableAutohide', false);
-        }
-        }
-      // Launch startup detection
-        hideDetect();
-      // Re-launch dection in window resized
-        window.onresize = hideDetect;
-    </script>
-<!--new +/- on accordian-->
-<script>
-function toggleIcon(e) {
-    $(e.target)
-        .prev('.panel-heading')
-        .find(".more-less")
-        .toggleClass('glyphicon-plus glyphicon-minus');
-}
-$('.panel-group').on('hidden.bs.collapse', toggleIcon);
-$('.panel-group').on('shown.bs.collapse', toggleIcon);
-</script>
-<!--end +/- on accordian-->
 
 <script> //closes the mobile menu when nav item is clicked
 $(function(){
@@ -331,15 +289,6 @@ $(function(){
     });
 });
 </script>
-
-<!--Work Side bar-->
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper, #menu-toggle").toggleClass("toggled");
-    });
-    </script>
-<!--end Work side bar-->
 
 
     <!--[if lt IE 9]>
