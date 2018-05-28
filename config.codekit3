@@ -23,6 +23,13 @@
 		"oAP": "\/blocknet.html",
 		"oF": 0
 		},
+	"\/branding.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/branding.html",
+		"oF": 0
+		},
 	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -168,6 +175,13 @@
 		"oAP": "\/css\/emily.min.min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
 		},
 	"\/fonts\/glyphicons-halflings-regular.eot": {
 		"cB": 0,
@@ -1672,13 +1686,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/textstyles.html",
-		"oF": 0
-		},
-	"\/vsavalues copy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/vsavalues copy.html",
 		"oF": 0
 		},
 	"\/vsavalues.html": {

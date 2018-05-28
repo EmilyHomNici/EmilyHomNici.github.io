@@ -184,7 +184,17 @@ body{padding-top: 100px;}
       padding-left: 0;
       padding-top: 15px;
     }
-      .navbar-brand img{width: 50px;}
+      .navbar-brand img{width: 55px;}
+
+/*Logo becomes fixed position when container hits max-width*/
+@media (min-width: 1450px) {
+  .navbar-brand{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 15px;
+    z-index: 1030;}
+}
 
     .navbar-toggler {
         cursor:pointer;
@@ -212,6 +222,7 @@ body{padding-top: 100px;}
         font-family: "Lora", serif;
       }
 
+
       .parent ul{
         -webkit-transition:.5s;
         -moz-transition:.5s;
@@ -225,6 +236,7 @@ body{padding-top: 100px;}
         -o-transition:.5s;
         -ms-transition:.5s;
         transition:.5s;
+        background: none;
       }
       .parent:hover > li{
         opacity: 0.3;
@@ -680,6 +692,7 @@ a.navlink{
 
 /*07 MISC*/
 
+.container-fluid{max-width: 1450px;}
 .float-right{float: right;}
 
 /*--misc--*/
