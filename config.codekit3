@@ -214,7 +214,7 @@
 		"oAP": "\/images\/branding\/invest_banners.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/invest_banners@2x.jpg": {
@@ -224,7 +224,7 @@
 		"oAP": "\/images\/branding\/invest_banners@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/invest_stationary.jpg": {
@@ -234,7 +234,7 @@
 		"oAP": "\/images\/branding\/invest_stationary.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/invest_stationary@2x.jpg": {
@@ -244,7 +244,7 @@
 		"oAP": "\/images\/branding\/invest_stationary@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_banners.jpg": {
@@ -254,7 +254,7 @@
 		"oAP": "\/images\/branding\/ptech_banners.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_banners@2x.jpg": {
@@ -264,7 +264,7 @@
 		"oAP": "\/images\/branding\/ptech_banners@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_posters.jpg": {
@@ -274,7 +274,7 @@
 		"oAP": "\/images\/branding\/ptech_posters.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_posters@2x.jpg": {
@@ -284,7 +284,7 @@
 		"oAP": "\/images\/branding\/ptech_posters@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_stationary.jpg": {
@@ -294,7 +294,7 @@
 		"oAP": "\/images\/branding\/ptech_stationary.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_stationary@2x.jpg": {
@@ -304,7 +304,7 @@
 		"oAP": "\/images\/branding\/ptech_stationary@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_tshirts.jpg": {
@@ -314,7 +314,7 @@
 		"oAP": "\/images\/branding\/ptech_tshirts.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/ptech_tshirts@2x.jpg": {
@@ -324,7 +324,7 @@
 		"oAP": "\/images\/branding\/ptech_tshirts@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/tf_exterior.jpg": {
@@ -334,7 +334,7 @@
 		"oAP": "\/images\/branding\/tf_exterior.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/tf_exterior@2x.jpg": {
@@ -344,7 +344,7 @@
 		"oAP": "\/images\/branding\/tf_exterior@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/tf_stage.jpg": {
@@ -354,7 +354,7 @@
 		"oAP": "\/images\/branding\/tf_stage.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/tf_stage@2x.jpg": {
@@ -364,7 +364,7 @@
 		"oAP": "\/images\/branding\/tf_stage@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/tf_stationary.jpg": {
@@ -374,7 +374,7 @@
 		"oAP": "\/images\/branding\/tf_stationary.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/tf_stationary@2x.jpg": {
@@ -384,7 +384,7 @@
 		"oAP": "\/images\/branding\/tf_stationary@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/wedding_menu.jpg": {
@@ -394,7 +394,7 @@
 		"oAP": "\/images\/branding\/wedding_menu.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/wedding_menu@2x.jpg": {
@@ -404,7 +404,7 @@
 		"oAP": "\/images\/branding\/wedding_menu@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/wedding_notebooks.jpg": {
@@ -414,7 +414,7 @@
 		"oAP": "\/images\/branding\/wedding_notebooks.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/wedding_notebooks@2x.jpg": {
@@ -424,7 +424,7 @@
 		"oAP": "\/images\/branding\/wedding_notebooks@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/wedding_stationary.jpg": {
@@ -434,7 +434,7 @@
 		"oAP": "\/images\/branding\/wedding_stationary.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/branding\/wedding_stationary@2x.jpg": {
@@ -444,7 +444,7 @@
 		"oAP": "\/images\/branding\/wedding_stationary@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/codeclub\/codeclub_1.jpg": {
