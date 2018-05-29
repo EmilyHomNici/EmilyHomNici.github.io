@@ -63,25 +63,16 @@ a.link{
       transition:.5s;
     }
 
-ul ol{
-  list-style-type: none;
-  font-size: 1.125rem;
-  line-height: 2rem;
-  }
+ul{
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
 
-  ul li{
-    color: #757575;
-    margin-bottom: 16px;
-    background: url(/images/icons/bullet.png) no-repeat left 9px;
-    background-size: 4px;
-    padding-left: 14px;
-    display: block;
-  }
-
-
-  ol li{
-    margin-bottom: 16px;
-  }
+li{
+  font-size: 1.125rem; /*same as p*/
+  line-height: 2rem; /*same as p*/
+  margin-bottom: 24px;
+}
 
 .highlight{
   text-decoration: none;
