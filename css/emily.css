@@ -616,11 +616,17 @@ a.navlink{
   opacity: 0;
 }
 
+
 /*hover on work: MEDIUM MEDIA QUERY*/
 @media (min-width: 768px) {
   .hover_img a:hover span {
     visibility: visible;
     opacity: 1;
+    transition: opacity 0.5s ease 0.25s;
+  }
+  .img_private a:hover span {
+    visibility: visible;
+    opacity: 0.25;
     transition: opacity 0.5s ease 0.25s;
   }
 }
