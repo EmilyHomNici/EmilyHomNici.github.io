@@ -626,7 +626,7 @@ a.navlink{
   }
   .img_private a:hover span {
     visibility: visible;
-    opacity: 0.25;
+    opacity: 0.15;
     transition: opacity 0.5s ease 0.25s;
   }
 }
